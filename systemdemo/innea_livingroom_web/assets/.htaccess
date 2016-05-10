@@ -1,0 +1,10 @@
+# We need to disable GZIP compression for all webdemo assets.
+# First off, all huge data (like videos, swf, jpg, mp3) is already compressed and zipping does not make it any better.
+# It just costs server and client performance.
+# Second off, on some browsers the video streaming won't work anymore.
+
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+
+RewriteRule . - [E=no-gzip:1]

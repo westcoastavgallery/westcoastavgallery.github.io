@@ -1,0 +1,52 @@
+---
+layout: default
+title: Services Commercial
+permalink: /brands
+article: false
+---
+<div class="tm-block tm-block-light">
+	<div class="uk-container uk-container-center">
+		<div class="uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+			<div class="tm-main uk-width-medium-1-1">
+				<main class="tm-content">
+				<article class="uk-article">
+					<div>
+						<p>The technology behind your home automation system is only as good as the device that allows you to control it.&nbsp; Once we have integrated your new smart home with intelligent systems, the fun parts is taking control of any of those systems with the magical touch of a simple elegant device.&nbsp; The true measure of wizardry (afforded you from a broad range of devices) allows you to control all the systems in your home seamlessly, while the technology behind them remains completely hidden from the naked eye.&nbsp; We work with nothing but the best-in-class manufactures to offer you a choice menu of capable products and devices to meet your project goals.</p>
+					</div>
+				</article>
+				</main>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="tm-block tm-block-light tm-block-padding">
+	<div class="uk-container uk-container-center">
+		<section class="tm-bottom-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin=""><div class="uk-width-1-1">
+			{% for brand in site.data.brands %}
+				<div class="uk-panel">
+					<p>&nbsp;</p>
+					<div class="uk-grid" data-uk-grid-margin="">
+						<div class="uk-width-medium-1-2">
+							<a href="{{brand.link}}">
+								<p>
+									<img src="/images/brands/{{brand.picture}}" alt="Home Automation Device Vancouver">
+								</p>
+							</a>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<p>
+								<a href="{{brand.link}}">
+									<img src="/images/brands/{{brand.logo}}" alt="logo">
+								</a>
+							</p>
+							<p><br>{{brand.description}}</p>
+							<p><a class="uk-button uk-button-xsmall" href="{{brand.link}}">Go to manufacturers website</a></p>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+</div>
+</div
+>

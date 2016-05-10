@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panoramas>
+	<panorama file="chicago_01.jpg">
+		<view name="living_01">
+			<blit srcX="670" srcY="10" dstX="50" dstY="75" w="900" h="400" />
+			<tint rgb="f2f1ed" scale="1.15"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="rio_01.jpg">
+		<view name="living_01">
+			<blit srcX="720" srcY="0" dstX="50" dstY="20" w="900" h="400" />
+			<tint rgb="d3e3f0" scale="1.25"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="frankfurt_02.jpg">
+		<view name="living_01">
+			<blit srcX="1100" srcY="60" dstX="50" dstY="0" w="900" h="400" />
+			<tint rgb="d2e7f7" scale="1.25"/>  
+		</view>
+	</panorama>
+	
+	<panorama file="london_01.jpg">
+		<view name="living_01">
+			<blit srcX="1220" srcY="0" dstX="50" dstY="50" w="900" h="400" />
+			<tint rgb="c8d1d3" scale="1.25"/>
+		</view>
+	</panorama>
+	
+	<panorama file="los_angeles_02.jpg">
+		<view name="living_01">
+			<blit srcX="4000" srcY="60" dstX="50" dstY="0" w="900" h="400" />
+			<tint rgb="9cb1be" scale="1.4"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="mexico_01.jpg">
+		<view name="living_01">
+			<blit srcX="2500" srcY="0" dstX="50" dstY="60" w="900" h="400" />
+			<tint rgb="adb2b6" scale="1.4"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="seattle_03.jpg">
+		<view name="living_01">
+			<blit srcX="1500" srcY="100" dstX="50" dstY="55" w="900" h="400" />
+			<tint rgb="a8b4c4" scale="1.4"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="toronto_02.jpg">
+		<view name="living_01">
+			<blit srcX="1400" srcY="50" dstX="50" dstY="55" w="900" h="400" />
+			<tint rgb="d2dae7" scale="1.25"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="berlin_01.jpg">
+		<view name="living_01">
+			<blit srcX="2100" srcY="0" dstX="50" dstY="70" w="900" h="400" />
+			<tint rgb="d7dce0" scale="1.25"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="muenchen_01.jpg">
+		<view name="living_01">
+			<blit srcX="960" srcY="20" dstX="50" dstY="75" w="900" h="400" />
+			<tint rgb="dde7ea" scale="1.15"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="stuttgart_01.jpg">
+		<view name="living_01">
+			<blit srcX="200" srcY="30" dstX="50" dstY="75" w="900" h="400" />
+			<tint rgb="8b97a2" scale="1.85"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="denver_01.jpg">
+		<view name="living_01">
+			<blit srcX="580" srcY="260" dstX="50" dstY="75" w="900" h="400" />
+			<tint rgb="99a2a5" scale="1.85"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="knoxville_01.jpg">
+		<view name="living_01">
+			<blit srcX="510" srcY="0" dstX="50" dstY="75" w="900" h="400" />
+			<tint rgb="eaf1f2" scale="1.15"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="boston_01.jpg">
+		<view name="living_01">
+			<blit srcX="1210" srcY="50" dstX="50" dstY="75" w="900" h="400" />
+			<tint rgb="9399a0" scale="1.85"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="miami_01.jpg">
+		<view name="living_01">
+			<blit srcX="450" srcY="0" dstX="50" dstY="110" w="900" h="400" />
+			<tint rgb="abb7bb" scale="1.65"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="miami_02.jpg">
+		<view name="living_01">
+			<blit srcX="0" srcY="0" dstX="50" dstY="25" w="900" h="400" />
+			<tint rgb="9fabb5" scale="1.65"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="miami_03.jpg">
+		<view name="living_01">
+			<blit srcX="100" srcY="75" dstX="50" dstY="25" w="900" h="400" />
+			<tint rgb="9fabb5" scale="1.65"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="san_diego_02.jpg">
+		<view name="living_01">
+			<blit srcX="80" srcY="0" dstX="50" dstY="100" w="900" h="400" />
+			<tint rgb="aaafa9" scale="1.55"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="los_angeles_digitronic.jpg">
+		<view name="living_01">
+			<blit srcX="0" srcY="0" dstX="50" dstY="110" w="900" h="400" />
+			<tint rgb="9cb1be" scale="1.55"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="miami_innovative_lifestyles.jpg">
+		<view name="living_01">
+			<blit srcX="0" srcY="125" dstX="50" dstY="110" w="900" h="400" />
+			<tint rgb="9cc5e0" scale="1.55"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="naples_executive_electronics.jpg">
+		<view name="living_01">
+			<blit srcX="0" srcY="0" dstX="50" dstY="155" w="900" h="350" />
+			<tint rgb="adbfd0" scale="1.5"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="moscow_01.jpg">
+		<view name="living_01">
+			<blit srcX="300" srcY="50" dstX="0" dstY="100" w="900" h="400" />
+			<tint rgb="b6cded" scale="1.0"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="moscow_02.jpg">
+		<view name="living_01">
+			<blit srcX="45" srcY="0" dstX="0" dstY="110" w="900" h="350" />
+			<tint rgb="aac8ff" scale="0.7"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="marseille_01.jpg">
+		<view name="living_01">
+			<blit srcX="0" srcY="0" dstX="46" dstY="187" w="850" h="250" />
+			<tint rgb="aac8ff" scale="0.7"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="dallas_01.jpg">
+		<view name="living_01">
+			<blit srcX="200" srcY="0" dstX="46" dstY="187" w="850" h="250" />
+			<tint rgb="e0b6a4" scale="0.7"/> 
+		</view>
+	</panorama>
+	
+	<panorama file="los_angeles_01.jpg">
+		<view name="living_01">
+			<blit srcX="150" srcY="260" dstX="46" dstY="187" w="850" h="250" />
+			<tint rgb="d0e2f7" scale="1.2"/> 
+		</view>
+	</panorama>	
+	
+	<panorama file="vancouver_01.jpg">
+		<view name="living_01">
+			<blit srcX="30" srcY="100" dstX="46" dstY="187" w="850" h="250" />
+			<tint rgb="aac8ff" scale="0.7"/> 
+		</view>
+	</panorama>		
+	
+</panoramas>

@@ -45,10 +45,53 @@
     
     <script src="/js/theme.js">
     </script>
+    <!-- bxSlider Javascript file -->
+    <script src="/js/bxslider/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="/js/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+    jQuery(document).ready(function(){
+    jQuery('.bxslider').bxSlider({
+    minSlides: 5,
+    maxSlides: 10,
+    slideWidth: 150,
+    slideMargin: 10,
+    ticker: true,
+    speed: 100000
+    });
+    });
+    </script>
     
   </head>
   
   <body class="tm-isblog">
+    <div class="absolute"><div class="">
+      <!-- This is the button toggling the off-canvas sidebar -->
+      <p><a data-uk-offcanvas="{target:'#my-id1'}"><img src="/images/images2/button_flyout_offcanvas_contact.png" alt="button offcanva contact us"></a><a data-uk-offcanvas="{target:'#my-id2'}"><br><img src="/images/images2/button_flyout_offcanvas_subscribe.png" alt="button offcanva subscribe"></a>
+    </p>
+    <!-- This is the off-canvas sidebar -->
+    <div id="my-id1" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar">
+        <div class="uk-panel">
+          <h1><span style="color: #ffffff;">Contact Us</span></h1>
+          <p>Don’t hesitate to let us know how we can help you. We are here to answer any questions you might have or assist you with a project.</p>
+          
+          <iframe height="558" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://osaga2.wufoo.com/embed/mzbpy4h0zs13ua/">&lt;a href="https://osaga2.wufoo.com/forms/mzbpy4h0zs13ua/"&gt;Fill out my Wufoo form!&lt;/a&gt;</iframe>
+          
+        </div>
+      </div>
+    </div>
+    <div id="my-id2" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar">
+        <div class="uk-panel">
+          <h1><span style="color: #ffffff;">Subscribe</span></h1>
+          <p>Join our mailing list and stay up to date on the latest smart technology news and events.</p>
+          
+          <iframe height="380" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://osaga2.wufoo.com/embed/m1yims7x0ok5z07/">&lt;a href="https://osaga2.wufoo.com/forms/m1yims7x0ok5z07/"&gt;Fill out my Wufoo form!&lt;/a&gt;</iframe>
+          
+        </div>
+      </div>
+    </div></div></div>
     
     <div class="tm-toolbar uk-clearfix uk-hidden-small">
       
@@ -92,7 +135,6 @@
       
       
       <strong>
-
       </strong>
       
       
@@ -104,7 +146,6 @@
       <nav class="tm-navbar uk-navbar">
         
         <div class="uk-navbar-flip">
-
           <ul class="uk-navbar-nav uk-visible-large">
             <li class="uk-parent" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
               <a>
@@ -115,7 +156,7 @@
                   <div class="uk-width-1-2">
                     <ul class="uk-nav uk-nav-navbar">
                       <li>
-                        <a href="https://westcoastavgallery.ca/services/residential">Residential
+                        <a href="/services/residential">Residential
                         </a>
                       </li>
                     </ul>
@@ -123,23 +164,23 @@
                   <div class="uk-width-1-2">
                     <ul class="uk-nav uk-nav-navbar">
                       <li class="uk-parent">
-                        <a href="https://westcoastavgallery.ca/services/commercial">Commercial
+                        <a href="/services/commercial">Commercial
                         </a>
                         <ul>
                           <li>
-                            <a href="https://westcoastavgallery.ca/services/commercial/boardrooms">
+                            <a href="/services/commercial/boardrooms">
                               <i class="uk-icon-chevron-right">
                               </i> Boardrooms
                             </a>
                           </li>
                           <li>
-                            <a href="https://westcoastavgallery.ca/services/commercial/mdu">
+                            <a href="/services/commercial/mdu">
                               <i class="uk-icon-chevron-right">
                               </i> MDU Automation Vancouver, BC
                             </a>
                           </li>
                           <li>
-                            <a href="https://westcoastavgallery.ca/services/commercial/other">
+                            <a href="/services/commercial/other">
                               <i class="uk-icon-chevron-right">
                               </i> Other
                             </a>
@@ -152,15 +193,15 @@
               </div>
             </li>
             <li class="" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
-              <a href="https://westcoastavgallery.ca/brands">Brands
+              <a href="/brands">Brands
               </a>
             </li>
             <li data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
-              <a class="uk-hidden" href="https://westcoastavgallery.ca/">Home
+              <a class="uk-hidden" href="/">Home
               </a>
             </li>
             <li data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}" class="">
-              <a href="http://w.westcoastavgallery.ca/clients">Clients
+              <a href="/clients">Clients
               </a>
             </li>
             <li class="uk-parent" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
@@ -172,11 +213,11 @@
                   <div class="uk-width-1-1">
                     <ul class="uk-nav uk-nav-navbar">
                       <li>
-                        <a href="https://westcoastavgallery.ca/demos/virtual-demo">Virtual Demo
+                        <a href="/demos/virtual-demo">Virtual Demo
                         </a>
                       </li>
                       <li>
-                        <a href="https://westcoastavgallery.ca/demos/smart-home-layout">Smart Home Layout
+                        <a href="/demos/smart-home-layout">Smart Home Layout
                         </a>
                       </li>
                     </ul>
@@ -185,11 +226,11 @@
               </div>
             </li>
             <li data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
-              <a href="https://westcoastavgallery.ca/image-gallery">Gallery
+              <a href="/image-gallery">Gallery
               </a>
             </li>
             <li data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
-              <a href="http://w.westcoastavgallery.ca/demo-sale">Demo Sale
+              <a href="/demo-sale">Demo Sale
               </a>
             </li>
             <li class="uk-parent" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
@@ -201,7 +242,7 @@
                   <div class="uk-width-1-1">
                     <ul class="uk-nav uk-nav-navbar">
                       <li>
-                        <a href="https://westcoastavgallery.ca/more/contact">Contact
+                        <a href="/more/contact">Contact
                         </a>
                       </li>
                       <li>
@@ -209,7 +250,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="http://w.westcoastavgallery.ca/careers">Careers
+                        <a href="/careers">Careers
                         </a>
                       </li>
                     </ul>
@@ -225,13 +266,12 @@
         <div class="uk-hidden-large">
           
           <a href="#offcanvas" class="uk-navbar-toggle" data-uk-offcanvas="">
-
           </a>
           
         </div>
         
         
-        <a class="tm-logo uk-navbar-brand uk-visible-large" href="https://westcoastavgallery.ca">
+        <a class="tm-logo uk-navbar-brand uk-visible-large" href="/">
           
           <img src="/images/logo.png" alt="Logo Westcoast Audio Video Gallery">
           
@@ -240,487 +280,424 @@
         
         <div class="uk-navbar-content uk-navbar-center uk-hidden-large">
           
-          <a class="tm-logo-small" href="https://westcoastavgallery.ca">
+          <a class="tm-logo-small" href="">
             
             <img class="uk-responsive-height" src="/images/logo-west-cost-av-small.png" alt="Logo Westcoast Audio Video Gallery Small">
             
           </a>
-
         </div>
         
       </nav>
-      
-      
-      <!--
-      
-    </header> -->
-    
-    
-    <!--
-    
-  </div>
-  
-</div> -->
-<div class="tm-block tm-block-light">
-  
-  
-  <div class="uk-container uk-container-center">
-    
-    <div class="uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
-      
-      
-      <div class="tm-main uk-width-medium-1-1">
-        
-        
-        <main class="tm-content">
-        
-        
-        <article class="uk-article">
-          {{ content }}
-          
-          
-        </article>
-        
+      <ul class="bxslider">
 
-        </main>
-        
-        
+       <li><img src="/images/ticker/heos.jpg"></li>
+       <li><img src="/images/ticker/logitech.jpg"></li>
+       <li><img src="/images/ticker/primacoustic.jpg"></li>
+       <li><img src="/images/ticker/pro.jpg"></li>
+       <li><img src="/images/ticker/middle.png"></li>
+       <li><img src="/images/ticker/solid.png"></li>
+       <li><img src="/images/ticker/kanto.png"></li>
+       <li><img src="/images/ticker/vi.png"></li>
+       <li><img src="/images/ticker/bdi.jpg"></li>
+       <li><img src="/images/ticker/sonos.png"></li>
+       <li><img src="/images/ticker/pyng.png"></li>
+       <li><img src="/images/ticker/factor.png"></li>
+      </ul>
+      
+      {% if page.article == false %}
+        {{ content }}
+      {% endif %}
+      
+      {% if page.article == true %}
+        <div class="tm-block tm-block-light">
+          <div class="uk-container uk-container-center">
+            <div class="uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+              <div class="tm-main uk-width-medium-1-1">
+                <main class="tm-content">
+                <article class="uk-article">
+                  {{ content }}
+                </article>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
+      <ul class="bxslider">
+        <li><img src="/images/ticker/solid.png"></li>
+        <li><img src="/images/ticker/kanto.png"></li>
+        <li><img src="/images/ticker/vi.png"></li>
+        <li><img src="/images/ticker/bdi.jpg"></li>
+        <li><img src="/images/ticker/sonos.png"></li>
+        <li><img src="/images/ticker/pyng.png"></li>
+        <li><img src="/images/ticker/factor.png"></li>
+        <li><img src="/images/ticker/heos.jpg"></li>
+        <li><img src="/images/ticker/logitech.jpg"></li>
+        <li><img src="/images/ticker/primacoustic.jpg"></li>
+        <li><img src="/images/ticker/pro.jpg"></li>
+        <li><img src="/images/ticker/middle.png"></li>
+      </ul>
+      <div class="tm-bottom tm-block tm-block-black">
+        <div class="uk-container uk-container-center">
+          <div class="tm-block">
+            <section class="tm-bottom-c uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin="">
+              
+              <div class="uk-width-1-1">
+                <div class="uk-panel">
+                  
+                  <p>&nbsp;
+                    
+                  </p>
+                  
+                  <p>&nbsp;
+                    
+                  </p>
+                  
+                  
+                  <p style="text-align: center;">
+                    <span style="color: #ffffff;">
+                      <a href="http://westcoastavgallery.ca/">
+                        
+                        <span style="color: #ffffff;">Home
+                          
+                        </span>
+                        
+                      </a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                      
+                      <a href="http://westcoastavgallery.ca/services/residential">
+                        <span style="color: #ffffff;">Residential Service
+                          
+                        </span>
+                        
+                      </a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                      
+                      <a href="http://westcoastavgallery.ca/services/commercial">
+                        <span style="color: #ffffff;">Commercial Services
+                          
+                        </span>
+                        
+                      </a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                      
+                      <a href="http://westcoastavgallery.ca/image-gallery">
+                        <span style="color: #ffffff;">Gallery
+                        </span>
+                        
+                      </a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                      
+                      <a href="http://westcoastavgallery.ca/demos/virtual-demo">
+                        <span style="color: #ffffff;">Demos
+                          
+                        </span>
+                        
+                      </a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                      
+                      <a href="http://westcoastavgallery.ca/brands">
+                        <span style="color: #ffffff;">Brands
+                        </span>
+                        
+                      </a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                      
+                      <a href="http://blog.westcoastavgallery.ca">
+                        <span style="color: #ffffff;">Blog
+                        </span>
+                        
+                      </a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                      
+                      <a href="http://westcoastavgallery.ca/contact">
+                        <span style="color: #ffffff;">Contact Us
+                          
+                        </span>
+                        
+                      </a>
+                      
+                    </span>
+                    
+                  </p>
+                  
+                  <p style="text-align: center;">
+                    
+                    <span style="color: #ffffff;">&nbsp;
+                    </span>
+                    
+                    <br>
+                    
+                    <span style="color: #ffffff;">
+                      <strong>Westcoast Audio Video Gallery
+                      </strong>
+                      
+                    </span>
+                    
+                    <br>
+                    
+                    <span style="color: #ffffff;">408 Terminal Ave &nbsp;Vancouver, BC
+                    </span>
+                    
+                    <br>
+                    
+                    <span style="color: #ffffff;">V6A 0C1, Canada
+                      
+                    </span>
+                    
+                  </p>
+                  
+                  
+                  <p style="text-align: center;">
+                    
+                    <span style="color: #ffffff;">TEL (604) 669-5001
+                      
+                    </span>
+                    <br>
+                    
+                    <span style="color: #ffffff;">FAX (604) 669-5444
+                    </span>
+                  </p>
+                  
+                  <center>
+                  
+                  <p>
+                    
+                    <a class="uk-icon-large uk-icon-twitter" href="https://twitter.com/WestcoastAVG" target="_blank">
+                      
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    <a class="uk-icon-medium uk-icon-facebook" href="https://www.facebook.com/WestcoastAVGallery" target="_blank">
+                      
+                    </a>
+                    
+                  </p>
+                  
+                  
+                  </center>
+                  
+                  <p style="text-align: center;">&nbsp;
+                  </p>
+                  
+                  <p style="text-align: center;">
+                    <span style="color: #ffffff;">
+                      
+                      <img src="/images/footer/logo_footer_bbb.png" alt="Home Automation Vancouver Better Business Bureau">&nbsp;&nbsp;
+                      
+                      <img src="/images/footer/logo_footer_consumer_choice_award_2010.png" alt="Home Theater Vancouver consumer choice award 2010">&nbsp;&nbsp;
+                      
+                      <span style="color: #ffffff;">
+                        
+                        <img src="/images/footer/logo_footer_consumer_choice_award_2012.png" alt="Home Automation Vancouver consumer choice award 2012">
+                        
+                      </span> &nbsp;
+                      
+                      <span style="color: #ffffff;">
+                        <img src="/images/footer/logo_footer_consumer_choice_award_2014.png" alt="Home Automation Vancouver consumer choice award 2014">
+                        
+                      </span>
+                      
+                      <br>
+                      
+                    </span>
+                    
+                  </p>
+                  
+                  <p style="text-align: center;">&nbsp;
+                    
+                  </p>
+                  <p style="text-align: center;">
+                    <span style="font-size: 8pt; color: #ffffff;">Copyright ©&nbsp;West Coast Audio Video Gallery&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; Powered by
+                      
+                      <a href="http://onefirefly.com/" target="_blank">
+                        
+                        <span style="color: #ffffff;">One Firefly
+                          
+                        </span>
+                        
+                      </a>
+                      
+                    </span>
+                    
+                  </p>
+                  
+                </div>
+                
+              </div>
+              
+            </section>
+          </div>
+          
+          <footer class="tm-footer tm-block">
+            
+            <a class="tm-totop-scroller" data-uk-smooth-scroll="" href="#">
+            </a>
+            
+            
+          </footer>
+          
+        </div>
       </div>
-
-      
-    </div>
-    
-    
-  </div>
-  
-</div>
-<div class="tm-bottom tm-block tm-block-black">
-  
-  
-  
-  <div class="uk-container uk-container-center">
-    
-    
-    
-    <div class="tm-block">
-      
-      <section class="tm-bottom-c uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin="">
+      <div id="offcanvas" class="uk-offcanvas">
         
-        <div class="uk-width-1-1">
-
+        
+        <div class="uk-offcanvas-bar">
+          
           <div class="uk-panel">
-            
-            <p>&nbsp;
+            <form id="search-114" class="uk-search" action="/demo-sale" method="post" role="search">
               
-            </p>
-            
-            <p>&nbsp;
               
-            </p>
-            
-            
-            <p style="text-align: center;">
-
-              <span style="color: #ffffff;">
-
-                <a href="http://westcoastavgallery.ca/">
-                  
-                  <span style="color: #ffffff;">Home
-                    
-                  </span>
-                  
-                </a>&nbsp;&nbsp; |&nbsp;&nbsp;
-                
-                <a href="http://westcoastavgallery.ca/services/residential">
-
-                  <span style="color: #ffffff;">Residential Service
-                    
-                  </span>
-                  
-                </a>&nbsp;&nbsp; |&nbsp;&nbsp;
-                
-                <a href="http://westcoastavgallery.ca/services/commercial">
-
-                  <span style="color: #ffffff;">Commercial Services
-                    
-                  </span>
-                  
-                </a>&nbsp;&nbsp; |&nbsp;&nbsp;
-                
-                <a href="http://westcoastavgallery.ca/image-gallery">
-
-                  <span style="color: #ffffff;">Gallery
-
-                  </span>
-                  
-                </a>&nbsp;&nbsp; |&nbsp;&nbsp;
-                
-                <a href="http://westcoastavgallery.ca/demos/virtual-demo">
-
-                  <span style="color: #ffffff;">Demos
-                    
-                  </span>
-                  
-                </a>&nbsp;&nbsp; |&nbsp;&nbsp;
-                
-                <a href="http://westcoastavgallery.ca/brands">
-
-                  <span style="color: #ffffff;">Brands
-
-                  </span>
-                  
-                </a>&nbsp;&nbsp; |&nbsp;&nbsp;
-                
-                <a href="http://blog.westcoastavgallery.ca">
-
-                  <span style="color: #ffffff;">Blog
-
-                  </span>
-                  
-                </a>&nbsp;&nbsp; |&nbsp;&nbsp;
-                
-                <a href="http://westcoastavgallery.ca/contact">
-
-                  <span style="color: #ffffff;">Contact Us
-                    
-                  </span>
-                  
-                </a>
-                
-              </span>
+              <input class="uk-search-field" type="search" name="searchword" placeholder="search...">
               
-
-            </p>
-            
-            <p style="text-align: center;">
               
-              <span style="color: #ffffff;">&nbsp;
-
-              </span>
+              <button class="uk-search-close" type="reset">
               
-              <br>
+              </button>
               
-              <span style="color: #ffffff;">
-
-                <strong>Westcoast Audio Video Gallery
-
-                </strong>
-                
-              </span>
               
-              <br>
+              <input type="hidden" name="task" value="search">
               
-              <span style="color: #ffffff;">408 Terminal Ave &nbsp;Vancouver, BC
-
-              </span>
+              <input type="hidden" name="option" value="com_search">
               
-              <br>
+              <input type="hidden" name="Itemid" value="251">
               
-              <span style="color: #ffffff;">V6A 0C1, Canada
-                
-              </span>
-              
-            </p>
-            
-            
-            <p style="text-align: center;">
-              
-              <span style="color: #ffffff;">TEL (604) 669-5001
-                
-              </span>
-
-              <br>
-              
-              <span style="color: #ffffff;">FAX (604) 669-5444
-
-              </span>
-
-            </p>
-            
-            <center>
-            
-            <p>
-              
-              <a class="uk-icon-large uk-icon-twitter" href="https://twitter.com/WestcoastAVG" target="_blank">
-                
-              </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              
-              <a class="uk-icon-medium uk-icon-facebook" href="https://www.facebook.com/WestcoastAVGallery" target="_blank">
-                
-              </a>
-              
-            </p>
-            
-            
-            </center>
-
-            
-            <p style="text-align: center;">&nbsp;
-
-            </p>
-            
-
-            <p style="text-align: center;">
-
-              <span style="color: #ffffff;">
-                
-                <img src="/images/footer/logo_footer_bbb.png" alt="Home Automation Vancouver Better Business Bureau">&nbsp;&nbsp;
-                
-                <img src="/images/footer/logo_footer_consumer_choice_award_2010.png" alt="Home Theater Vancouver consumer choice award 2010">&nbsp;&nbsp;
-                
-                <span style="color: #ffffff;">
-                  
-                  <img src="/images/footer/logo_footer_consumer_choice_award_2012.png" alt="Home Automation Vancouver consumer choice award 2012">
-                  
-                </span> &nbsp;
-                
-                <span style="color: #ffffff;">
-
-                  <img src="/images/footer/logo_footer_consumer_choice_award_2014.png" alt="Home Automation Vancouver consumer choice award 2014">
-                  
-                </span>
-                
-                <br>
-                
-              </span>
-              
-            </p>
-
-            
-            <p style="text-align: center;">&nbsp;
-              
-            </p>
-
-            <p style="text-align: center;">
-
-              <span style="font-size: 8pt; color: #ffffff;">Copyright ©&nbsp;West Coast Audio Video Gallery&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; Powered by
-                
-                <a href="http://onefirefly.com/" target="_blank">
-                  
-                  <span style="color: #ffffff;">One Firefly
-                    
-                  </span>
-                  
-                </a>
-                
-              </span>
-              
-
-            </p>
+            </form>
             
           </div>
           
+          
+          <ul class="uk-nav uk-nav-offcanvas">
+            <li>
+              <a href="http://westcoastavgallery.ca/">Home
+                
+              </a>
+              
+            </li>
+            
+            <li class="uk-parent">
+              
+              <a>
+                Services
+                
+              </a>
+              
+              <ul class="uk-nav-sub">
+                
+                <li>
+                  <a href="http://westcoastavgallery.ca/services/residential">Residential
+                    
+                  </a>
+                  
+                </li>
+                
+                <li class="uk-parent">
+                  
+                  <a href="http://westcoastavgallery.ca/services/commercial">Commercial
+                    
+                  </a>
+                  
+                  <ul>
+                    <li>
+                      <a href="http://westcoastavgallery.ca/services/commercial/boardrooms">
+                        
+                        <i class="uk-icon-chevron-right">
+                        </i> Boardrooms
+                        
+                      </a>
+                      
+                    </li>
+                    
+                    <li>
+                      
+                      <a href="http://westcoastavgallery.ca/services/commercial/mdu">
+                        
+                        <i class="uk-icon-chevron-right">
+                        
+                        </i> MDU Automation Vancouver, BC
+                        
+                      </a>
+                      
+                    </li>
+                    
+                    <li>
+                      
+                      <a href="http://westcoastavgallery.ca/services/commercial/other">
+                        
+                        <i class="uk-icon-chevron-right">
+                        
+                        </i> Other
+                      </a>
+                      
+                    </li>
+                    
+                  </ul>
+                  
+                </li>
+                
+              </ul>
+              
+            </li>
+            <li>
+              <a href="http://westcoastavgallery.ca/image-gallery">Gallery
+                
+              </a>
+              
+            </li>
+            
+            <li class="uk-parent">
+              <a>
+                Demos
+              </a>
+              
+              <ul class="uk-nav-sub">
+                
+                <li>
+                  
+                  <a href="http://westcoastavgallery.ca/demos/virtual-demo">Virtual Demo
+                    
+                  </a>
+                </li>
+                <li>
+                  <a href="http://westcoastavgallery.ca/demos/smart-home-layout">Smart Home Layout
+                    
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="http://westcoastavgallery.ca/brands">Brands
+              </a>
+            </li>
+            <li>
+              <a href="/clients">Clients
+              </a>
+            </li>
+            <li class="uk-active">
+              
+              <a href="/demo-sale">Demo Sale
+                
+              </a>
+              
+            </li>
+            
+            <li>
+              
+              <a href="http://blog.westcoastavgallery.ca" target="_blank">Blog
+                
+              </a>
+              
+            </li>
+            
+            <li>
+              
+              <a href="/contact">Contact
+                
+              </a>
+              
+            </li>
+          </ul>
         </div>
-
-        
-      </section>
-
+      </div>
     </div>
-    
-    <footer class="tm-footer tm-block">
-      
-      <a class="tm-totop-scroller" data-uk-smooth-scroll="" href="#">
-
-      </a>
-      
-      
-    </footer>
-    
-  </div>
-</div>
-<div id="offcanvas" class="uk-offcanvas">
-  
-  
-  <div class="uk-offcanvas-bar">
-    
-    <div class="uk-panel">
-
-      <form id="search-114" class="uk-search" action="/demo-sale" method="post" role="search">
-        
-        
-        <input class="uk-search-field" type="search" name="searchword" placeholder="search...">
-        
-        
-        <button class="uk-search-close" type="reset">
-        
-        </button>
-        
-        
-        <input type="hidden" name="task" value="search">
-        
-
-        <input type="hidden" name="option" value="com_search">
-
-        
-        <input type="hidden" name="Itemid" value="251">
-        
-
-      </form>
-      
-    </div>
-    
-    
-    <ul class="uk-nav uk-nav-offcanvas">
-
-      <li>
-
-        <a href="http://westcoastavgallery.ca/">Home
-          
-        </a>
-        
-      </li>
-      
-      <li class="uk-parent">
-        
-        <a>
-          Services
-          
-        </a>
-
-        
-        <ul class="uk-nav-sub">
-          
-          <li>
-
-            <a href="http://westcoastavgallery.ca/services/residential">Residential
-              
-            </a>
-            
-          </li>
-          
-          <li class="uk-parent">
-            
-            <a href="http://westcoastavgallery.ca/services/commercial">Commercial
-              
-            </a>
-            
-            <ul>
-
-              <li>
-
-                <a href="http://westcoastavgallery.ca/services/commercial/boardrooms">
-                  
-                  <i class="uk-icon-chevron-right">
-
-                  </i> Boardrooms
-                  
-                </a>
-                
-              </li>
-              
-              <li>
-                
-                <a href="http://westcoastavgallery.ca/services/commercial/mdu">
-                  
-                  <i class="uk-icon-chevron-right">
-                  
-                  </i> MDU Automation Vancouver, BC
-                  
-                </a>
-                
-              </li>
-              
-              <li>
-                
-                <a href="http://westcoastavgallery.ca/services/commercial/other">
-                  
-                  <i class="uk-icon-chevron-right">
-                  
-                  </i> Other
-
-                </a>
-                
-              </li>
-              
-            </ul>
-            
-          </li>
-          
-        </ul>
-        
-      </li>
-
-      <li>
-
-        <a href="http://westcoastavgallery.ca/image-gallery">Gallery
-          
-        </a>
-        
-      </li>
-      
-      <li class="uk-parent">
-
-        <a>
-          Demos
-
-        </a>
-        
-
-        <ul class="uk-nav-sub">
-          
-          <li>
-            
-            <a href="http://westcoastavgallery.ca/demos/virtual-demo">Virtual Demo
-              
-            </a>
-
-          </li>
-
-          <li>
-
-            <a href="http://westcoastavgallery.ca/demos/smart-home-layout">Smart Home Layout
-              
-            </a>
-
-          </li>
-
-        </ul>
-
-      </li>
-
-      <li>
-
-        <a href="http://westcoastavgallery.ca/brands">Brands
-        </a>
-
-      </li>
-
-      <li>
-
-        <a href="/clients">Clients
-        </a>
-
-      </li>
-
-      <li class="uk-active">
-        
-        <a href="/demo-sale">Demo Sale
-          
-        </a>
-        
-      </li>
-      
-      <li>
-        
-        <a href="http://blog.westcoastavgallery.ca" target="_blank">Blog
-          
-        </a>
-        
-      </li>
-      
-      <li>
-        
-        <a href="/contact">Contact
-          
-        </a>
-        
-      </li>
-
-    </ul>
-
-  </div>
-</div>
-</div>
-{% include analytics.html %}
-</body>
+    <!--  <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer> -->
+    {% include analytics.html %}
+  </body>
 </html>

@@ -1,0 +1,310 @@
+﻿#######################################################
+# hardkeys
+#######################################################
+arrive=Kommen
+leave=Gehen
+party=Party
+holiday=Urlaub
+#######################################################
+# media players
+#######################################################
+media_sources=Quellen
+media_controls=Steuerung
+media_%s_controls=%s Steuerung
+blu_ray=Blu-Ray
+radio=Radio
+tv=TV
+movies=Filme
+music=Musik
+radio=Radio
+media_off=Medien aus
+media_off_text=In diesem Raum ist das Mediensystem ausgeschaltet.\n\nBitte wählen Sie links eine Medienquelle, um das Mediensystem im Raum anzuschalten.
+media_off_abbr=In diesem Raum ist das Mediensystem ausgeschaltet.
+ok=OK
+settings=Einstellungen
+menu=Menü
+cancel=Abbrechen
+back=Zurück
+guide=Guide
+teletext=Teletext
+entertainment=Unterhaltung
+documentary=Dokus
+program=Programm
+search=Suchen
+backwards=Zurück
+forward=Vor
+favorites=Favoriten
+radio_station=Radiosender
+radio_frequency=Frequenz
+#######################################################
+# viewpoints
+#######################################################
+kitchen=Küche
+living=Wohnzimmer
+bath=Bad
+#######################################################
+# 3d ui
+#######################################################
+3dui_hide_device=Minimieren
+3dui_show_device=Voriges Gerät
+#######################################################
+# activities
+#######################################################
+macro_watching_tv=Fernsehen
+macro_watching_movies=Kino
+macro_listening_music=Musik hören
+macro_reading=Lesen
+macro_all_off=Alles aus
+#######################################################
+# page headlines
+#######################################################
+shortcuts=Schnellfunktionen
+shortcuts_abbr=Schnellfunkt.
+global_camera_page=Kameras
+global_camera_0=Foyer
+global_camera_1=Garage
+global_camera_2=Aufzug
+global_entrance_0=Foyer
+global_entrance_1=Garage
+global_elevator_door_%s_open=Aufzugtür %s öffnen
+global_intercom_open=Öffnen
+global_weather_page=Wetter
+global_alert_page=Störmeldungen
+global_functions_page=Globale Funktionen
+global_functions_page_abbr=Globale Funkt.
+global_intercom_page=Interkom
+global_security_page=Sicherheit
+lighting_living=Wohnzimmer-Licht
+shades_living=Wohnzimmer-Jalousien
+climate_living=Wohnzimmer-Klima
+media_living=Wohnzimmer-Medien
+shortcuts_living=Wohnzimmer-Schnellfunktionen
+lighting=Licht
+shades=Jalousien
+shades_abbr=Jalousie
+climate=Klima
+media=Medien
+#######################################################
+# lightscenes
+#######################################################
+scenes=Lichtszenen
+lighting_long=Beleuchtung
+bright=Hell
+smooth=Sanft
+colorful=Farbig
+warm=Warm
+lights_off=Licht aus
+#######################################################
+# lights
+#######################################################
+light_ceiling=Decke
+light_corner=Eckleuchte
+light_globe=Globus
+light_indirect=Indirekt
+#######################################################
+# shades
+#######################################################
+all_shades=Alle Jalousien
+#######################################################
+# climate
+#######################################################
+set_temp_abbr=Soll
+current_temp_abbr=Ist
+fast=Schnell
+normal=Normal
+slow=Langsam
+off=Aus
+temperature_control=Temperatur
+fan_control=Lüftung
+#######################################################
+# Camera
+#######################################################
+camera_zoom_in=Hereinzoomen
+camera_zoom_out=Herauszoomen
+#######################################################
+# Security
+#######################################################
+intern_arm=Intern
+extern_arm=Extern
+arming=Scharfschalten
+possible=Möglich
+not_possible=Nicht möglich!
+security_arm=Scharf
+security_disarm=Unscharf
+security_armed=Ist scharf
+security_disarmed=Ist unscharf
+security_info=Sicherheitsinformationen
+security_info_abbr=Info
+doors=Türen
+windows=Fenster
+win_kitchen=Küchenfenster
+win_dining=Esszimmerfenster
+win0_living=Wohnzimmerfenster
+win1_living=Wohnzimmerfenster 1
+win2_living=Wohnzimmerfenster 2
+win3_living=Wohnzimmerfenster 3
+win1_living_abbr=Wohnz. Fenster 1
+win2_living_abbr=Wohnz. Fenster 2
+win3_living_abbr=Wohnz. Fenster 3
+door_balcony=Balkontür
+lift_door_app=Aufzugstür App.
+lift_door_1st=Aufzugstür EG
+lift_door_garage=Aufzugstür Garage
+door_bath=Badtür
+win_bed=Schlafzimmerfenster
+win_bath=Badfenster
+#######################################################
+# Global
+#######################################################
+security=Sicherheit
+global=Global
+weather=Wetter
+#######################################################
+# Intercom
+#######################################################
+accept_call=Ruf annehmen
+intercom_internal_pushtotalk=Intern (Push to talk)
+intercom_all=Alle
+intercom_service=Hausservice
+intercom_security=Sicherheitsdienst
+intercom_janitor=Pförtner
+intercom_restaurant=Restaurant
+#######################################################
+# Alerts
+#######################################################
+security_eventtime=Ereigniszeit
+security_solutiontime=Problem gelöst
+alert_heater=Heizung
+alert_ventilation=Lüftung
+alert_gas=Gasalarm
+alert_smoke=Rauchalarm
+alert_water_bath=Wasseralarm Bad
+alert_power_failure=Stromausfall
+#######################################################
+# Weather
+#######################################################
+weather_station=Wetterstation
+outdoor_temperature=Außentemperatur
+wind_speed=Wind
+humidity=Luftfeuchtigkeit
+air_pressure=Luftdruck
+brightness=Helligkeit
+outdoor=Außen
+wind=Wind
+current=Aktuell
+tomorrow=Morgen
+day_after_tomorrow=Übermorgen
+sunny=Sonnig
+temperature=Temperatur
+tomo_min=Min:
+tomo_max=Max: 
+tomo_min_temp=10°C
+tomo_max_temp=14°C
+rain_risk=Regenrisiko
+rain_risk_temp=20%
+rainy=Regen
+dtomo_min=Min:
+dtomo_max=Max:
+dtomo_min_temp=8°C
+dtomo_max_temp=12°C
+drain_risk=Regenrisiko
+drain_risk_temp=80%
+#######################################################
+# media tracks - radio
+#######################################################
+mt_radio01_name=Antenne1
+mt_radio01_author=98.0
+mt_radio01_icon=music/de/icons/radio01.png
+mt_radio01_file=music/en/radio01.mp3
+#######################################################
+mt_radio02_name=DASDING
+mt_radio02_author=91.7
+mt_radio02_icon=music/de/icons/radio02.png
+mt_radio02_file=music/en/radio02.mp3
+#######################################################
+mt_radio03_name=BigFM
+mt_radio03_author=104.7
+mt_radio03_icon=music/de/icons/radio03.png
+mt_radio03_file=music/en/radio03.mp3
+#######################################################
+mt_radio04_name=SWR3
+mt_radio04_author=99.9
+mt_radio04_icon=music/de/icons/radio04.png
+mt_radio04_file=music/en/radio04.mp3
+#######################################################
+mt_radio05_name=DLF
+mt_radio05_author=106.3
+mt_radio05_icon=music/de/icons/radio05.png
+mt_radio05_file=music/en/radio05.mp3
+#######################################################
+mt_radio06_name=Regenbogen
+mt_radio06_author=100.4
+mt_radio06_icon=music/de/icons/radio06.png
+mt_radio06_file=music/en/radio06.mp3
+#######################################################
+# media tracks - tv
+#######################################################
+mt_tv01_name=ARD
+mt_tv01_author=?
+mt_tv01_icon=videos/de/covers/tv05.png
+mt_tv01_file=videos/en/tv01.f4v
+#######################################################
+mt_tv02_name=ZDF
+mt_tv02_author=?
+mt_tv02_icon=videos/de/covers/tv02.png
+mt_tv02_file=videos/en/tv02.f4v
+#######################################################
+mt_tv03_name=RTL
+mt_tv03_author=?
+mt_tv03_icon=videos/de/covers/tv03.png
+mt_tv03_file=videos/en/tv03.f4v
+#######################################################
+mt_tv04_name=Pro7
+mt_tv04_author=?
+mt_tv04_icon=videos/de/covers/tv04.png
+mt_tv04_file=videos/en/tv04.f4v
+#######################################################
+mt_tv05_name=Sat1
+mt_tv05_author=?
+mt_tv05_icon=videos/de/covers/tv01.png
+mt_tv05_file=videos/en/tv05.f4v
+#######################################################
+mt_tv06_name=Kabel1
+mt_tv06_author=?
+mt_tv06_icon=videos/de/covers/tv06.png
+mt_tv06_file=videos/en/tv06.f4v
+#######################################################
+mt_tv07_name=arte
+mt_tv07_author=?
+mt_tv07_icon=videos/de/covers/tv07.png
+mt_tv07_file=videos/en/tv07.f4v
+#######################################################
+mt_tv08_name=3sat
+mt_tv08_author=?
+mt_tv08_icon=videos/de/covers/tv08.png
+mt_tv08_file=videos/en/tv08.f4v
+#######################################################
+mt_tv09_name=phoenix
+mt_tv09_author=?
+mt_tv09_icon=videos/de/covers/tv09.png
+mt_tv09_file=videos/en/tv09.f4v
+#######################################################
+mt_tv10_name=n24
+mt_tv10_author=?
+mt_tv10_icon=videos/de/covers/tv10.png
+mt_tv10_file=videos/en/tv10.f4v
+#######################################################
+mt_tv11_name=n-tv
+mt_tv11_author=?
+mt_tv11_icon=videos/de/covers/tv11.png
+mt_tv11_file=videos/en/tv11.f4v
+#######################################################
+mt_tv12_name=bbc
+mt_tv12_author=?
+mt_tv12_icon=videos/de/covers/tv12.png
+mt_tv12_file=videos/en/tv12.f4v
+#######################################################
+# Web-specific
+#######################################################
+choose_device_intro=Willkommen!\nKlicken Sie auf das Tablet, um das Wohnzimmer zu steuern.
+#######################################################

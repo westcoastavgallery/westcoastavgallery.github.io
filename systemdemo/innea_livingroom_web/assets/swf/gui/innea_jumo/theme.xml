@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme package="vi.ui.innea.jumo" baseColor="0xFF86D4EF">
+	<button class="button_02">
+		<tint layer="state" state="au" />
+		<tint layer="state" state="aut" />
+		<tint layer="label" state="iu" />
+	</button>
+	<button class="button_04">
+		<tint layer="state" state="au" />
+		<tint layer="state" state="aut" />
+		<tint layer="label" state="iu" />
+	</button>
+	<button class="button_05">
+		<tint layer="state" state="au" />
+		<tint layer="state" state="aut" />
+	</button>
+	<button class="button_06">
+		<tint layer="state" state="au" />
+		<tint layer="state" state="aut" />
+	</button>
+	<button class="button_07">
+		<tint layer="state" state="au" />
+	</button>
+	<button class="button_08">
+		<tint layer="state" state="au" />
+		<tint layer="state" state="aut" />
+	</button>
+	<button class="button_09">
+		<tint layer="state" state="au" />
+		<tint layer="state" state="aut" />
+	</button>
+	<button class="button_10">
+		<tint layer="label" state="iu" />
+	</button>
+	<button class="label_01">
+		<tint layer="label" state="au" />
+	</button>
+	<button class="label_02">
+		<tint layer="label" state="au" />
+	</button>
+	<button class="tab_02">
+		<tint layer="label" state="iu" />
+	</button>
+	<button class="tab_03">
+		<tint layer="state" state="au" />
+		<tint layer="state" state="aut" />
+	</button>
+	<slider class="slider_03">
+		<tint layer="bar" />
+	</slider>
+	<slider class="slider_05">
+		<tint layer="bar" />
+	</slider>
+	<icon class="icon_power_on_iu" />
+	<icon class="icon_arrow_down_iu" />
+	<icon class="icon_arrow_left_iu" />
+	<icon class="icon_arrow_right_iu" />
+	<icon class="icon_arrow_up_iu" />
+	<icon class="icon_close_iu" />
+	<icon class="icon_ff_iu" />
+	<icon class="icon_rev_iu" />
+	<icon class="icon_lightON_iu" />
+	<icon class="icon_lightOFF_iu" />
+	<icon class="icon_minus_iu" />
+	<icon class="icon_pause_iu" />
+	<icon class="icon_play_iu" />
+	<icon class="icon_plus_iu" />
+	<icon class="icon_power_on_iu" />
+	<icon class="icon_skiptrack_iu" />
+	<icon class="icon_skiptrack_reverse_iu" />
+	<icon class="icon_stop_iu" />
+	<icon class="icon_wlan_iu" />	
+</theme>

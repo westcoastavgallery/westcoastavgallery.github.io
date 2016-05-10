@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% for product in site.data.demo-sale %}
+	<div class="row text-left product-row">
+		<div class="span5">
+			<img style="min-height: 250px; height: 250px;" src="/images/demo-sales/{{product.picture}}" alt="">
+		</div>
+		<div class="span6">
+			<h3 class="demo-product-title">{{product.title}}</h3>
+			
+			<p>{{product.text}}</p>
+			
+			{% if product.link %}
+				<p><a class="text-left h4" href="{{product.link}}">More details/pictures</a></p>
+			{% endif %}	
+			
+			<p class="lead">{{product.price}}</p>
+
+		</div>
+	</div>
+{% endfor %}

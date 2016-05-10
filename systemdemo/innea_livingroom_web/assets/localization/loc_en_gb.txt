@@ -1,0 +1,2 @@
+﻿colorful=Colourful
+favorites=Favourites

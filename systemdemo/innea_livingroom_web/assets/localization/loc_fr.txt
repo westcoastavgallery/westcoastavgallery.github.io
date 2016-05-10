@@ -1,0 +1,304 @@
+﻿#######################################################
+# hardkeys
+#######################################################
+arrive=Arrivée
+leave=Départ
+party=Fête
+holiday=Vacances
+#######################################################
+# media players
+#######################################################
+media_sources=Sources
+media_controls=Contrôles
+media_%s_controls=%s Contrôles
+blu_ray=Blu-Ray
+radio=Radio
+tv=TV
+movies=Films
+music=Musique
+radio=Radio
+media_off=Éteindre
+media_off_text=Tous les médias dans cette pièce sont désactivés.\n\nVeuillez choisir une source à gauche pour mettre en marche le système média.
+media_off_abbr=Tous les médias dans cette pièce sont désactivés.
+ok=OK
+settings=Réglages
+menu=Menu
+cancel=Abandon
+back=Retour
+guide=Guide
+teletext=Télétext
+entertainment=Divertissement
+documentary=Documentaire
+program=Chaîne
+search=Rechercher
+backwards=BWD
+forward=FWD
+favorites=Favoris
+radio_station=Station
+radio_frequency=Fréquene
+#######################################################
+# viewpoints
+#######################################################
+kitchen=Kitchen
+living=Living
+bath=Bathroom
+#######################################################
+# 3d ui
+#######################################################
+3dui_hide_device=Cacher
+3dui_show_device=Denier outil
+#Last Device
+#######################################################
+# activities
+#######################################################
+macro_watching_tv=Regarder la TV
+macro_watching_movies=Cinéma
+macro_listening_music=Musique
+macro_reading=Lecture
+macro_all_off=Éteindre
+#######################################################
+# page headlines
+#######################################################
+shortcuts=Raccourcis
+shortcuts_abbr=Raccourcis
+global_camera_page=Camera
+global_camera_0=Foyer
+global_camera_1=Garage
+global_camera_2=Elevator
+global_entrance_0=Foyer
+global_entrance_1=Garage
+global_elevator_door_%s_open=Open door                        %s
+global_intercom_open=Open
+global_weather_page=Weather
+global_alert_page=Alerts
+global_functions_page=Global Functions
+global_functions_page_abbr=Global Functions
+global_intercom_page=Intercom
+global_security_page=Security
+lighting_living=Éclairage
+shades_living=Volets
+climate_living=Climatisation
+media_living=Living-Média
+shortcuts_living=Raccourcis
+lighting=Éclairage
+shades=Teintes
+shades_abbr=Volet
+climate=Climatisation
+media=Média
+#######################################################
+# lightscenes
+#######################################################
+scenes=Scènes d'éclairage
+lighting_long=Éclairage
+bright=Clair
+smooth=Doux
+colorful=Coloré
+warm=Chaud
+lights_off=Éteindre
+#######################################################
+# shades
+#######################################################
+all_shades=Contrôler
+#######################################################
+# climate
+#######################################################
+set_temp_abbr=Régler
+current_temp_abbr=Actuelle
+fast=Rapide
+normal=Normale
+slow=Ralentie
+off=Éteindre
+temperature_control=Température
+fan_control=Ventilation
+#######################################################
+# Camera
+#######################################################
+camera_zoom_in=Zoom in
+camera_zoom_out=Zoom out
+#######################################################
+# Security
+#######################################################
+intern_arm=Intern
+extern_arm=Extern
+arming=Arming
+possible=Possible
+not_possible=Not possible!
+security_arm=Arm
+security_disarm=Disarm
+security_armed=Armed
+security_disarmed=Disarmed
+security_info=Security Information
+security_info_abbr=Info
+doors=Doors
+windows=Windows
+win_kitchen= Kitchen Window
+win_dining=Dining Window
+win0_living=Living Window
+win1_living=Living Window 1
+win2_living=Living Window 2
+win3_living=Living Window 3
+win1_living_abbr=Living Window 1
+win2_living_abbr=Living Window 2
+win3_living_abbr=Living Window 3
+door_balcony=Balcony Door
+lift_door_app=Elevator Door Ap.
+lift_door_1st=Elevator Door 1st
+lift_door_garage=Elevator Door Gar.
+door_bath=Bath Door
+win_bed=Bedroom Window
+win_bath=Bath Window
+#######################################################
+# Global
+#######################################################
+security=Security
+global=Global
+weather=Weather
+#######################################################
+# Intercom
+#######################################################
+accept_call=Accept call
+intercom_internal_pushtotalk=Internal (Push to talk)
+intercom_all=All
+intercom_service=Building Service
+intercom_security=Security
+intercom_janitor=Janitor
+intercom_restaurant=Restaurant
+#######################################################
+# Alerts
+#######################################################
+security_eventtime=Date of event
+security_solutiontime=Solved
+alert_heater=Heater
+alert_ventilation=Ventilation
+alert_gas=Gas alert
+alert_smoke=Smoke alert
+alert_water_bath=Water alarm Bath
+alert_power_failure=Power failure
+#######################################################
+# Weather
+#######################################################
+weather_station=Weather station
+outdoor_temperature=Outdoor Temperature
+wind_speed=Windspeed
+humidity=Humidity
+air_pressure=Airpressure
+brightness=Brightness
+outdoor=Outdoor
+wind=Wind
+current=Current
+tomorrow=In 1 day
+day_after_tomorrow=In 2 days
+sunny=Sunny
+temperature=Temperature
+tomo_min=Min:
+tomo_max=Max:
+tomo_min_temp=50°F
+tomo_max_temp=57°F
+rain_risk=P.O.P.
+rain_risk_temp=20%
+rainy=Rain
+dtomo_min=Min:
+dtomo_max=Max:
+dtomo_min_temp=46°F
+dtomo_max_temp=53°F
+drain_risk=P.O.P.
+drain_risk_temp=80%
+#######################################################
+# media tracks - radio
+#######################################################
+mt_radio01_name=WKDF
+mt_radio01_author=103.0
+mt_radio01_icon=music/en/icons/radio01.png
+mt_radio01_file=music/en/radio01.mp3
+#######################################################
+mt_radio02_name=HOT
+mt_radio02_author=104.9
+mt_radio02_icon=music/en/icons/radio02.png
+mt_radio02_file=music/en/radio02.mp3
+#######################################################
+mt_radio03_name=WYMG
+mt_radio03_author=100.5
+mt_radio03_icon=music/en/icons/radio03.png
+mt_radio03_file=music/en/radio03.mp3
+#######################################################
+mt_radio04_name=KUBE
+mt_radio04_author=93.0
+mt_radio04_icon=music/en/icons/radio04.png
+mt_radio04_file=music/en/radio04.mp3
+#######################################################
+mt_radio05_name=KEXP
+mt_radio05_author=90.3
+mt_radio05_icon=music/en/icons/radio05.png
+mt_radio05_file=music/en/radio05.mp3
+#######################################################
+mt_radio06_name=KAAM
+mt_radio06_author=770.0
+mt_radio06_icon=music/en/icons/radio06.png
+mt_radio06_file=music/en/radio06.mp3
+#######################################################
+# media tracks - tv
+#######################################################
+mt_tv01_name=FOX
+mt_tv01_author=Randi Voss Photography
+mt_tv01_icon=videos/en/covers/tv01.png
+mt_tv01_file=videos/en/tv01.f4v
+#######################################################
+mt_tv02_name=ABC
+mt_tv02_author=Felipe Rojas
+mt_tv02_icon=videos/en/covers/tv02.png
+mt_tv02_file=videos/en/tv02.f4v
+#######################################################
+mt_tv03_name=FOX Sports
+mt_tv03_author=Sam Frankfurter
+mt_tv03_icon=videos/en/covers/tv03.png
+mt_tv03_file=videos/en/tv03.f4v
+#######################################################
+mt_tv04_name=RealiTV
+mt_tv04_author=Ian Fraser
+mt_tv04_icon=videos/en/covers/tv04.png
+mt_tv04_file=videos/en/tv04.f4v
+#######################################################
+mt_tv05_name=FOX
+mt_tv05_author=CTVA 464
+mt_tv05_icon=videos/en/covers/tv05.png
+mt_tv05_file=videos/en/tv05.f4v
+#######################################################
+mt_tv06_name=CBH
+mt_tv06_author=Ryan Close
+mt_tv06_icon=videos/en/covers/tv06.png
+mt_tv06_file=videos/en/tv06.f4v
+#######################################################
+mt_tv07_name=NBC
+mt_tv07_author=Autokolor
+mt_tv07_icon=videos/en/covers/tv07.png
+mt_tv07_file=videos/en/tv07.f4v
+#######################################################
+mt_tv08_name=Discovery
+mt_tv08_author=Eugenia Loli-Queru
+mt_tv08_icon=videos/en/covers/tv08.png
+mt_tv08_file=videos/en/tv08.f4v
+#######################################################
+mt_tv09_name=OReilly
+mt_tv09_author=Ignite
+mt_tv09_icon=videos/en/covers/tv09.png
+mt_tv09_file=videos/en/tv09.f4v
+#######################################################
+mt_tv10_name=Travel
+mt_tv10_author=Eugenia Loli-Queru
+mt_tv10_icon=videos/en/covers/tv10.png
+mt_tv10_file=videos/en/tv10.f4v
+#######################################################
+mt_tv11_name=National Geographic
+mt_tv11_author=Felipe Rojas
+mt_tv11_icon=videos/en/covers/tv11.png
+mt_tv11_file=videos/en/tv11.f4v
+#######################################################
+mt_tv12_name=Animal
+mt_tv12_author=Eugenia Loli-Queru
+mt_tv12_icon=videos/en/covers/tv12.png
+mt_tv12_file=videos/en/tv12.f4v
+#######################################################
+# Web-specific
+#######################################################
+choose_device_intro=Bienvenue !\nVeuillez choisir la tablette ou le smartphone pour contrôler la pièce.
+#######################################################
