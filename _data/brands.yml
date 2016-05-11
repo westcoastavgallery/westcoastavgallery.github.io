@@ -1,7 +1,12 @@
 - picture: crestron.png
   logo: crestron-logo.png
-  links: https://www.crestron.com/
+  link: http://www.crestron.com
   description: You don't need multiple remotes just to watch television, or a wall filled with switches and knobs that takes you 3 tries to find the right light. Take control of your home with just one button press from a sleek Crestron touchpanel, designer engraved keypad or your iPad™, iPhone® or iPod® touch. Select a movie to watch or music to enjoy from your favorite chair. Adjust your lights, shades, temperature and check on your alarm system without getting out of bed. The comfort and convenience of the ultimate technology lifestyle can be yours. The possibilities are endless, whatever you can imagine Crestron can do.
+
+- picture: rti.png
+  logo: rti-logo.png
+  link: http://www.rticorp.com/
+  description: RTI Specializes in advanced control products for automating and operation of audio, video and environmental management systems such as lighting and HVAC.  Offering solutions for residential, commercial and transportation applications, RTI products are uniquely designed to meet the needs of the electronics installation professional while providing a simplified interface for the end-user.
 
 - picture: marrantz.png
   logo: marrantz-logo.png

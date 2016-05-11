@@ -1,0 +1,310 @@
+- package-group: Hi-Fi Systems
+  packages:
+    - name: Hi-Fi System 1
+      price: 1,098.00 
+      products:
+        - name: Heos Amp  HS2
+          description: Heos By Denon Music Streamer 100w x 2 Amp
+        - name: Paradign Atom v7
+          description: Paradign Monitor Atom v7 bookshelf speakers
+    - name: Hi-Fi System 2
+      price:  1,698.00  
+      products:
+        - name: Minx Xi
+          description: Cambridge Integrated Amp with Music Streamer
+        - name: Aeromax2 
+          description: Cambridge Aeromax 2 bookshelf speakers
+    - name: Hi-Fi System 3
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 4
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 5
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 6
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 7
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+
+- package-group: Hi-Fi Systems
+  packages:
+    - name: Hi-Fi System 1
+      price: 1,098.00 
+      products:
+        - name: Heos Amp  HS2
+          description: Heos By Denon Music Streamer 100w x 2 Amp
+        - name: Paradign Atom v7
+          description: Paradign Monitor Atom v7 bookshelf speakers
+    - name: Hi-Fi System 2
+      price:  1,698.00  
+      products:
+        - name: Minx Xi
+          description: Cambridge Integrated Amp with Music Streamer
+        - name: Aeromax2 
+          description: Cambridge Aeromax 2 bookshelf speakers
+    - name: Hi-Fi System 3
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 4
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 5
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 6
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 7
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+
+- package-group: Hi-Fi Systems
+  packages:
+    - name: Hi-Fi System 1
+      price: 1,098.00 
+      products:
+        - name: Heos Amp  HS2
+          description: Heos By Denon Music Streamer 100w x 2 Amp
+        - name: Paradign Atom v7
+          description: Paradign Monitor Atom v7 bookshelf speakers
+    - name: Hi-Fi System 2
+      price:  1,698.00  
+      products:
+        - name: Minx Xi
+          description: Cambridge Integrated Amp with Music Streamer
+        - name: Aeromax2 
+          description: Cambridge Aeromax 2 bookshelf speakers
+    - name: Hi-Fi System 3
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 4
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 5
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 6
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 7
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+
+- package-group: Hi-Fi Systems
+  packages:
+    - name: Hi-Fi System 1
+      price: 1,098.00 
+      products:
+        - name: Heos Amp  HS2
+          description: Heos By Denon Music Streamer 100w x 2 Amp
+        - name: Paradign Atom v7
+          description: Paradign Monitor Atom v7 bookshelf speakers
+    - name: Hi-Fi System 2
+      price:  1,698.00  
+      products:
+        - name: Minx Xi
+          description: Cambridge Integrated Amp with Music Streamer
+        - name: Aeromax2 
+          description: Cambridge Aeromax 2 bookshelf speakers
+    - name: Hi-Fi System 3
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 4
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 5
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 6
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 7
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+
+- package-group: Hi-Fi Systems
+  packages:
+    - name: Hi-Fi System 1
+      price: 1,098.00 
+      products:
+        - name: Heos Amp  HS2
+          description: Heos By Denon Music Streamer 100w x 2 Amp
+        - name: Paradign Atom v7
+          description: Paradign Monitor Atom v7 bookshelf speakers
+    - name: Hi-Fi System 2
+      price:  1,698.00  
+      products:
+        - name: Minx Xi
+          description: Cambridge Integrated Amp with Music Streamer
+        - name: Aeromax2 
+          description: Cambridge Aeromax 2 bookshelf speakers
+    - name: Hi-Fi System 3
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 4
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 5
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 6
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+    - name: Hi-Fi System 7
+      price: 2,298.00  
+      products:
+        - name: CXA 60
+          description: Cambridge Integrated Amplfier 60w x2 
+        - name: CXC 
+          description: Cambridge CD Transport
+        - name: Aeromax6 
+          description: Cambridge Aeromax6 floor standing speakers
+

@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+ticker: true
 ---
 
 Some information about you!
