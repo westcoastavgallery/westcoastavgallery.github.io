@@ -11,15 +11,8 @@ ticker: true
 			<div class="uk-width-medium-1-4">
 				<ul class="uk-tab uk-tab-left" data-uk-tab="{connect:'#tab-left-content'}">
 					{% for package in site.data.packages %}
-						<li class="" aria-expanded="false"><a href="#">{{package.package-group}}</a></li>
+						<li class="{% if forloop.index == 1 %}uk-active{% endif %}" aria-expanded="false"><a href="#">{{package.package-group}}</a></li>
 					{% endfor %}
-					<!-- <li class="" aria-expanded="false"><a href="#">Hi-Fi Systems</a></li>
-					<li aria-expanded="true" class="uk-active"><a href="#">HT Audio In-wall Systems</a></li>
-					<li aria-expanded="false"><a href="#">HT Audio On-wall Systems</a></li>
-					<li><a>HT Audio Micro Systems</a></li>
-					<li><a>Powered Sound Bars</a></li>
-					<li><a>Home Theater Audio Systems</a></li>
-					<li><a>Multi Room</a></li> -->
 				</ul>
 			</div>
 			<div class="uk-width-medium-3-4">
@@ -31,9 +24,12 @@ ticker: true
 									<dt>{{pack.name}}</dt>
 									{% for product in pack.products %}
 										<dd>{{product.name}} - {{product.description}}</dd>
+											{% for detail in product.details %}
+												<dd>- {{detail.item}}</dd>
+											{% endfor %}
 									{% endfor %}
-
 									<dd>${{pack.price}}<dd>
+									<p>{{pack.footnote}}</p>
 								{% endfor %}
 							</dl>
 						</li>
