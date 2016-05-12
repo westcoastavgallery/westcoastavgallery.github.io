@@ -52,9 +52,9 @@
       price: 17,298.00  
       products:
         - name: Azur 851E
-          description: Cambridge Integrated Amplfier 60w x2 
+          description: Cambridge Reference Flagship Pre-amplifier 
         - name: Azur 851W 
-          description: Cambridge CD Transport
+          description: Cambridge Reference 2 x 200 watt Amplifier
         - name: Azur 851C
           description: Cambridge Reference Azur 851C CD Player
         - name: Ethos
