@@ -19,7 +19,7 @@
     <script src="/js/bxslider/jquery.bxslider.min.js"></script>
     <!-- bxSlider CSS file -->
     <link href="/js/bxslider/jquery.bxslider.css" rel="stylesheet" />
-    {% if page.ticker == true %}
+    {% if page.ticker == true or page.is_post == true%}
       <script type="text/javascript">
       jQuery(document).ready(function(){
       jQuery('.bxslider').bxSlider({
@@ -210,22 +210,11 @@
                 <div class="uk-grid">
                   <div class="uk-width-1-1">
                     <ul class="uk-nav uk-nav-navbar">
-                      <li>
-                        <a href="https://www.canuckaudiomart.com/userads.php?user_id=20341" target="_blank">Demo Sale
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/more/contact">Contact
-                        </a>
-                      </li>
-                      <li>
-                        <a href="http://blog.westcoastavgallery.ca" target="_blank">Blog
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/careers">Careers
-                        </a>
-                      </li>
+                      <li><a href="https://www.canuckaudiomart.com/userads.php?user_id=20341" target="_blank">Demo Sale</a></li>
+                      <li><a href="/newsblog">News Blog</a></li>
+                      <li><a href="/more/contact">Contact</a></li>
+                      <li><a href="http://blog.westcoastavgallery.ca" target="_blank">Blog</a></li>
+                      <li><a href="/careers">Careers</a></li>
                     </ul>
                   </div>
                 </div>
@@ -263,11 +252,11 @@
       </nav>
       
       
-      {% if page.article == false %}
+      {% if page.article == false%}
         {{ content }}
       {% endif %}
       
-      {% if page.article == true %}
+      {% if page.article == true or page.is_post == true %}
         <div class="tm-block tm-block-light">
           <div class="uk-container uk-container-center">
             <div class="uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
@@ -282,7 +271,7 @@
           </div>
         </div>
       {% endif %}
-      {% if page.ticker == true %}
+      {% if page.ticker == true or page.is_post == true %}
         <ul class="bxslider">
           <li><a href="http://www.anthemav.com/"><img src="/images/ticker/anthem.png"></a></li>
           <li><a href="https://www.cambridgeaudio.com/"><img src="/images/ticker/cambridge.png"></a></li>
@@ -337,6 +326,9 @@
                       <a href="http://blog.westcoastavgallery.ca">
                         <span style="color: #ffffff;">Blog</span>
                       </a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                      <a href="/newsblog">
+                        <span style="color: #ffffff;">News Blog</span>
+                      </a>&nbsp;&nbsp; |&nbsp;&nbsp;
                       <a href="https://www.canuckaudiomart.com/userads.php?user_id=20341">
                         <span style="color: #ffffff;">Demo Sale</span>
                       </a>&nbsp;&nbsp; |&nbsp;&nbsp;
@@ -389,34 +381,34 @@
             </form>
           </div>
           <ul class="uk-nav uk-nav-offcanvas">
-            <li> <a href="/">Home </a> </li>
+            <li><a href="/">Home </a></li>
             
             <li class="uk-parent">
               <a>Services</a>
               <ul class="uk-nav-sub">
-                <li> <a href="/services/residential">Residential </a> </li>
+                <li><a href="/services/residential">Residential </a></li>
                 <li class="uk-parent">
                   <a href="/services/commercial">Commercial</a>
                   <ul>
-                    <li><a href="/services/commercial/boardrooms"> <i class="uk-icon-chevron-right"> </i> Boardrooms </a></li>
-                    <li><a href="/services/commercial/mdu"> <i class="uk-icon-chevron-right"> </i> MDU Automation Vancouver, BC </a></li>
+                    <li><a href="/services/commercial/boardrooms"><i class="uk-icon-chevron-right"></i> Boardrooms </a></li>
+                    <li><a href="/services/commercial/mdu"><i class="uk-icon-chevron-right"></i> MDU Automation Vancouver, BC </a></li>
                     <li><a href="/services/commercial/other"><i class="uk-icon-chevron-right"></i>Other</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
-            <li> <a href="/image-gallery">Gallery </a> </li>
+            <li><a href="/image-gallery">Gallery </a></li>
             <li class="uk-parent">
               <a>Demos</a>
               <ul class="uk-nav-sub">
-                <li> <a href="/demos/virtual-demo">Virtual Demo </a> </li>
-                <li> <a href="/demos/smart-home-layout">Smart Home Layout </a> </li>
+                <li><a href="/demos/virtual-demo">Virtual Demo </a></li>
+                <li><a href="/demos/smart-home-layout">Smart Home Layout </a></li>
               </ul>
             </li>
-            <li> <a href="/brands">Brands </a> </li>
-            <li> <a href="/clients">Clients </a> </li>
-            <li class="uk-active"> <a href="https://www.canuckaudiomart.com/userads.php?user_id=20341" target="_blank">Demo Sale </a> </li>
-            <li> <a href="http://blog.westcoastavgallery.ca" target="_blank">Blog </a> </li>
+            <li><a href="/brands">Brands </a></li>
+            <li><a href="/clients">Clients </a></li>
+            <li class="uk-active"><a href="https://www.canuckaudiomart.com/userads.php?user_id=20341" target="_blank">Demo Sale </a></li>
+            <li><a href="http://blog.westcoastavgallery.ca" target="_blank">Blog </a></li>
             
             <li><a href="/contact">Contact</a></li>
           </ul>
