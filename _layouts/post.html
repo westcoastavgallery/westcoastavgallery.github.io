@@ -4,9 +4,36 @@ article: true
 ticker: true
 ---
 <hr class="uk-grid-divider" style="margin-bottom: 0px;margin-top:0px;">
+<div class="tm-main uk-width-medium-2-3">
+
 <article class="post">
   <h1>{{ page.title }}</h1>
   <a href="{{page.original-url}}"><p>Original source</p></a>
   <p class="uk-article-meta">Written on {{ page.date | date: "%B %e, %Y" }}</p>
   {{ content }}
 </article>
+	
+</div>
+
+
+<div class="tm-main uk-width-medium-1-3">
+<ul>
+		{% for category in site.categories %}
+			<li>
+			<a name="{{ category | first }}">{{ category | first }}</a>
+			<ul>
+				<li>{{ category | first }} Vancouver, BC</li>
+				<li>{{ category | first }} Burnaby, BC</li>
+				<li>{{ category | first }} Richmond, BC</li>
+			</ul>
+			</li>
+		{% endfor %}
+		</ul>
+			<ul class="tags">
+				{% for tag in site.tags %}
+					{% assign t = tag | first %}
+					{% assign posts = tag | last %}
+					<li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
+				{% endfor %}
+			</ul>
+		</div>

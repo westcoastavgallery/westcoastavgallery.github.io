@@ -1,19 +1,42 @@
 ---
-layout: default
+layout: blog
 title: News Blog
 permalink: /newsblog
 article: true
 ticker: true
 ---
 <hr class="uk-grid-divider" style="margin-top: 0px;margin-bottom: 0px;">
-{% for post in site.posts %}
-	<div class="uk-article">
-		<a href="{{ post.url }}"><p class="uk-article-title" style="color:#333333;;">{{post.title}}</p></a>
-		<p class="uk-article-meta">Post by Westcoast AV Gallery on {{post.date | date: "%B %e, %Y" }}. Posted in Blog</p>
-		<p><img src="{{post.cover}}"></p>
-		<p>{{post.summary}}</p>
-		<a href="{{post.url}}">Read more</a>
-		<hr class="uk-article-divider">
-	</div>
-{% endfor %}
-</ul>
+<div class="tm-main uk-width-medium-2-3">
+	{% for post in site.posts %}
+		<div class="uk-article">
+			<a href="{{ post.url }}"><p class="uk-article-title" style="color:#333333;;">{{post.title}}</p></a>
+			<p class="uk-article-meta">Post by Westcoast AV Gallery on {{post.date | date: "%B %e, %Y" }}. Posted in Blog</p>
+			<p><img src="{{post.cover}}"></p>
+			<p>{{post.summary}}</p>
+			<a href="{{post.url}}">Read more</a>
+			<hr class="uk-article-divider">
+		</div>
+	{% endfor %}
+</div>
+
+<div class="tm-main uk-width-medium-1-3">
+<ul>
+		{% for category in site.categories %}
+			<li>
+			<a name="{{ category | first }}">{{ category | first }}</a>
+			<ul>
+				<li>{{ category | first }} Vancouver, BC</li>
+				<li>{{ category | first }} Burnaby, BC</li>
+				<li>{{ category | first }} Richmond, BC</li>
+			</ul>
+			</li>
+		{% endfor %}
+		</ul>
+			<ul class="tags">
+				{% for tag in site.tags %}
+					{% assign t = tag | first %}
+					{% assign posts = tag | last %}
+					<li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
+				{% endfor %}
+			</ul>
+		</div>
