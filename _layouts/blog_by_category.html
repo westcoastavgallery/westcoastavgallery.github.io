@@ -1,0 +1,32 @@
+---
+layout: blog
+article: true
+ticker: true
+---
+
+<div class="uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+
+<hr class="uk-grid-divider" style="margin-top: 0px;margin-bottom: 0px;">
+
+	<div class="tm-main uk-width-medium-2-3">
+		<h2>Articles in category {{ page.category }}</h2>
+		<hr class="uk-grid-divider" style="margin-top: 0px;margin-bottom: 0px;">
+		<div>
+			{% if site.categories[page.category] %}
+				{% for post in site.categories[page.category] %}
+					<div class="uk-article">
+									<a href="{{ post.url }}"><p class="uk-article-title" style="color:#333333;;">{{post.title}}</p></a>
+									<p class="uk-article-meta">Post by Westcoast AV Gallery on {{post.date | date: "%B %e, %Y" }}. Posted in Blog</p>
+									<p><img src="{{post.cover}}"></p>
+									<p>{{post.summary}}</p>
+									<a href="{{post.url}}">Read more</a>
+									<hr class="uk-article-divider">
+								</div>
+				{% endfor %}
+			{% else %}
+				<p>There are no posts for this category.</p>
+			{% endif %}
+		</div>
+	</div>
+	{% include cats-tags.html %}
+</div>

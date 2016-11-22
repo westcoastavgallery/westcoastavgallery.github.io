@@ -210,11 +210,11 @@
                 <div class="uk-grid">
                   <div class="uk-width-1-1">
                     <ul class="uk-nav uk-nav-navbar">
-                       <li><a href="https://www.canuckaudiomart.com/userads.php?user_id=20341" target="_blank">Demo Sale</a></li>
-                       <li><a href="/newsblog">Blog</a></li>
-                       <li><a href="/contact">Contact</a></li>
-                       <li><a href="/careers">Careers</a></li>
-                       <li><a href="http://videos.westcoastavgallery.ca/" target="_blank">Videos</a></li>
+                      <li><a href="https://www.canuckaudiomart.com/userads.php?user_id=20341" target="_blank">Demo Sale</a></li>
+                      <li><a href="/newsblog">Blog</a></li>
+                      <li><a href="/contact">Contact</a></li>
+                      <li><a href="/careers">Careers</a></li>
+                      <li><a href="http://videos.westcoastavgallery.ca/" target="_blank">Videos</a></li>
                     </ul>
                   </div>
                 </div>
@@ -250,27 +250,13 @@
         </div>
         
       </nav>
-      
-      
-      {% if page.article == false%}
-        {{ content }}
-      {% endif %}
-      
-      {% if page.article == true or page.is_post == true %}
+     
         <div class="tm-block tm-block-light">
           <div class="uk-container uk-container-center">
-            <div class="uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
-              <div class="tm-main uk-width-medium-1-1">
-                <main class="tm-content">
-                <article class="uk-article">
-                  {{ content }}
-                </article>
-                </main>
-              </div>
-            </div>
+            {{ content }}
           </div>
         </div>
-      {% endif %}
+     
       {% if page.ticker == true or page.is_post == true %}
         <ul class="bxslider">
           <li><a href="http://www.anthemav.com/"><img src="/images/ticker/anthem.png"></a></li>
@@ -327,7 +313,7 @@
                         <span style="color: #ffffff;">Brands</span>
                       </a>&nbsp;&nbsp; |&nbsp;&nbsp;
                       <a href="/newsblog">
-                        <span style="color: #ffffff;">News Blog</span>
+                        <span style="color: #ffffff;">Blog</span>
                       </a>&nbsp;&nbsp; |&nbsp;&nbsp;
                       <a href="https://www.canuckaudiomart.com/userads.php?user_id=20341">
                         <span style="color: #ffffff;">Demo Sale</span>
@@ -414,18 +400,16 @@
       </div>
     </div>
     {% include analytics.html %}
-
-<!-- Start of LiveChat (www.livechatinc.com) code -->
-<script type=""text/javascript"">
-window.__lc = window.__lc || {};
-window.__lc.license = 7869351;
-(function() {
-  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-})();
-</script>
-<!-- End of LiveChat code -->
-
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+    <script type=""text/javascript"">
+    window.__lc = window.__lc || {};
+    window.__lc.license = 7869351;
+    (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+    </script>
+    <!-- End of LiveChat code -->
   </body>
 </html>
