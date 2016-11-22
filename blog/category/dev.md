@@ -1,5 +1,5 @@
 ---
 layout: blog_by_category
-tags: [Dev]
+category: Dev
 permalink: /blog/category/dev/
 ---

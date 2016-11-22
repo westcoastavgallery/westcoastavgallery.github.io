@@ -1,5 +1,5 @@
 ---
 layout: blog_by_category
-tags: [Dev-richmond]
+category: Dev-richmond
 permalink: /blog/category/dev-richmond/
 ---

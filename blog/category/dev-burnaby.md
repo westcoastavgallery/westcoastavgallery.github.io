@@ -1,5 +1,5 @@
 ---
 layout: blog_by_category
-tags: [Dev-burnaby]
+category: Dev-burnaby
 permalink: /blog/category/dev-burnaby/
 ---

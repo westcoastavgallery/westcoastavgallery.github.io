@@ -1,5 +1,5 @@
 ---
 layout: blog_by_category
-tags: [audio-video]
+category: audio-video
 permalink: /blog/category/audio-video/
 ---
