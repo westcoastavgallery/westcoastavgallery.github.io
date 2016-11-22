@@ -1,5 +1,7 @@
 ---
 layout: blog_by_category
-category: audio-video-burnaby
+category:
 permalink: /blog/category/audio-video-burnaby/
 ---
+
+
