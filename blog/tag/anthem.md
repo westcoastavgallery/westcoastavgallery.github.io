@@ -1,5 +1,5 @@
 ---
 layout: blog_by_tag
-tags: [anthem]
+tag: anthem
 permalink: /blog/tag/anthem/
 ---

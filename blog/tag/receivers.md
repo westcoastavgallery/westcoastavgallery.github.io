@@ -1,5 +1,5 @@
 ---
 layout: blog_by_tag
-tags: [receivers]
+tag: receivers
 permalink: /blog/tag/receivers/
 ---

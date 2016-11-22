@@ -1,5 +1,5 @@
 ---
 layout: blog_by_tag
-tags: [heos]
+tag: heos
 permalink: /blog/tag/heos/
 ---

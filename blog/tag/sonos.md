@@ -1,5 +1,5 @@
 ---
 layout: blog_by_tag
-tags: [sonos]
+tag: sonos
 permalink: /blog/tag/sonos/
 ---

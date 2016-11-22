@@ -1,5 +1,5 @@
 ---
 layout: blog_by_tag
-tags: [jekyll]
+tag: jekyll
 permalink: /blog/tag/jekyll/
 ---
