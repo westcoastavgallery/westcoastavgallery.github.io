@@ -1,5 +1,5 @@
 ---
 layout: blog_by_tag
-tag: web
+tags: [web]
 permalink: /blog/tag/web/
 ---

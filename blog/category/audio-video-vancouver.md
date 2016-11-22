@@ -1,5 +1,5 @@
 ---
 layout: blog_by_category
-category: audio-video-vancouver
+tags: [audio-video-vancouver]
 permalink: /blog/category/audio-video-vancouver/
 ---

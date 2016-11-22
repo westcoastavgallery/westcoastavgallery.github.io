@@ -1,5 +1,5 @@
 ---
 layout: blog_by_category
-category: Dev-vancouver
+tags: [Dev-vancouver]
 permalink: /blog/category/dev-vancouver/
 ---
