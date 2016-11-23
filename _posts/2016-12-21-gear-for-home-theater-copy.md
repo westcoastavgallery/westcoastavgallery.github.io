@@ -4,6 +4,7 @@ title: The Best Gear for Building Your Home Theater
 original-url:
 cover: 'https://app.cloudcannon.com/sites/26920/site_files/raw/?path=uploads/versions/01-lead-image-home-theater-collective-630---x----630-420x---.jpg&timestamp=1479780290347'
 summary: "The Wirecutter's A/V team spends thousands of hours each year to find the best looking and sounding home theater equipment. Whether you have a dedicated theater room planned or want to upgrade your weeknight living room movie night, they have recommendations covering whatever space and budget you have..."
+metatags: [audio-video, vancouver audio video, vancouver receivers]
 categories:
   - audio-video
   - audio-video-burnaby

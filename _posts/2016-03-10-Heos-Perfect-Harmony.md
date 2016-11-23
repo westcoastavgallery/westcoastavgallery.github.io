@@ -3,6 +3,7 @@ layout: post
 title: Music + a Meal = Perfect Harmony
 original-url: http://heosvibe.denon.com/blog/Lists/Posts/Post.aspx?Id=58
 cover: http://heosvibe.denon.com/blog/Post_Assets/images/dinner-music.png
+metatags: [audio-video, vancouver audio video, vancouver receivers]
 categories: [audio-video, audio-video-burnaby, audio-video-vancouver, audio-video-richmond]
 tags: [heos]
 ---
