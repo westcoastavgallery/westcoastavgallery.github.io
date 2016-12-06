@@ -2,7 +2,7 @@
 layout: post
 title: Sleep tight with Sonos
 original-url: http://blog.sonos.com/tips-and-tricks/sleep-tight-with-sonos
-cover: /images/articles/sonos_photo_3.jpg
+cover: https://westcoastavgallery.ca/images/articles/sonos_photo_3.jpg
 summary: Dim the lights low. Draw the blinds. Turn on the slow jams. Let’s talk about the bedroom. Hey, not like that! We’re talking about your other favorite bedroom activity, sleep. We all know the importance of a good night sleep. But you work, you commute, you cook, you play, you Netflix, you work more in between...
 metatags: [audio-video, vancouver audio video, vancouver receivers]
 categories: [audio-video, audio-video-burnaby, audio-video-vancouver, audio-video-richmond]
