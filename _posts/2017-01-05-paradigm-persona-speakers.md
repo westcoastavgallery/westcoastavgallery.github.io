@@ -2,7 +2,7 @@
 layout: post
 title: Paradigm Persona Speakers Will Elevate Your White Rock, BC Theatre
 original-url:
-cover: '/images/articles/paradigm-persona-blog.png'
+cover: 'https://westcoastavgallery.ca/images/articles/paradigm-persona-blog.png'
 summary: 'Many factors go into creating the perfect home theatre system, but not one is more important than the audio. You cannot create that immersive cinematic experience in your home without considering your audio system. Think about it: Jaws would not be Jaws unless you felt your heart rate rise with each “duun-dun,” and Star Wars would not be Star Wars without the classic lightsaber sound effects. The powerful audio system is a huge reason we want to go out to the movies. So, when you’re trying to bring the theatre experience home, you must recreate that system. Luckily, the Persona series from Paradigm has arrived to elevate your home theatre. Read on to learn more.'
 metatags:
 - home-audio
