@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Transform Your New House Into a Smart Home with Control4
+excerpt: 'As smart home automation and commercial AV integrators for the Vancouver region, we pride in providing you with a smart system with added convenience and style.'
 original-url:
 cover: 'https://westcoastavgallery.ca/uploads/versions/transform-your-new-house-into-a-smart-home-with-control4---x0-0-800-533-630-420x---.jpg'
 summary: 'There’s nothing like the feeling of moving into a new house. The whole space buzzes with possibilities and improvements. In this day and age, technology allows us the opportunity to, not only customize our living spaces, but optimize them. Home automation gives new homeowners the power to access their electronic devices and systems from any location in the world, and even let their home run on autopilot. Control4 is the brain behind your West Vancouver, BC smart home, connecting and controlling all of your home’s devices into one easy-to-manage system. Interested in enhancing your new living space? Read on for some tips to keep in mind throughout your new construction or interior design process.'
@@ -8,9 +9,18 @@ metatags:
   - smart home
   - amazon alexa
   - control4
-categories:
-  - home-automation
-  - home-automation-west-vancouver-bc
+categories: 
+  - home-theatre-installation-west-vancouver-bc
+  - home-theatre-installation-north-vancouver-bc
+  - home-theatre-installation-white-rock-bc
+  - smart-home-automation-west-vancouver-bc
+  - smart-home-automation-north-vancouver-bc
+  - smart-home-automation-white-rock-bc
+  - commercial-av-west-vancouver-bc
+  - commercial-av-north-vancouver-bc
+  - commercial-av-white-rock-bc
+  - home-entertainment-system-vancouver-bc
+  - home-entertainment-system-vancouver-bc
 tags:
   - smart-home
   - amazon-alexa

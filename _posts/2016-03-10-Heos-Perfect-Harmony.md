@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Music + a Meal = Perfect Harmony
+excerpt: 'As smart home automation and commercial AV integrators for the Vancouver region, we pride in providing you with a smart system with added convenience and style.'
 original-url: http://heosvibe.denon.com/blog/Lists/Posts/Post.aspx?Id=58
 cover: http://heosvibe.denon.com/blog/Post_Assets/images/dinner-music.png
 metatags: [audio-video, vancouver audio video, vancouver receivers]

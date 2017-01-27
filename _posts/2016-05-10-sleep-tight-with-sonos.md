@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sleep tight with Sonos
+excerpt: 'As smart home automation and commercial AV integrators for the Vancouver region, we pride in providing you with a smart system with added convenience and style.'
 original-url: http://blog.sonos.com/tips-and-tricks/sleep-tight-with-sonos
 cover: https://westcoastavgallery.ca/images/articles/sonos_photo_3.jpg
 summary: Dim the lights low. Draw the blinds. Turn on the slow jams. Let’s talk about the bedroom. Hey, not like that! We’re talking about your other favorite bedroom activity, sleep. We all know the importance of a good night sleep. But you work, you commute, you cook, you play, you Netflix, you work more in between...

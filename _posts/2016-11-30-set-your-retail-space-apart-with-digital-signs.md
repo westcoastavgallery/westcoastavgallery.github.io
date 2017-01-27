@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Set Your Retail Space Apart with Digital Signs
+excerpt: 'As smart home automation and commercial AV integrators for the Vancouver region, we pride in providing you with a smart system with added convenience and style.'
 original-url:
 cover: 'https://westcoastavgallery.ca/uploads/versions/set-your-retail-space-apart-with-digital-signs---x0-0-900-600-630-420x---.jpg'
 summary: 'If you are looking to bring in more customers, think about including dynamic signage to your storefront. With the addition of digital signs to your Vancouver, BC establishment, you will be able to speak directly to your customer in an undeniable and modern language. An investment in digital signs is an investment in establishing and controlling the image of your business in a way that will also enhance your customer’s experience. These signs perfectly walk the line between being too aggressive and being unseen and also reflect the latest news and events your business has to offer. To learn more about how digital signage and commercial av can benefit your business, read on.'
@@ -10,8 +11,17 @@ metatags:
   - retail audio video
   -
 categories:
-  - commercial-av
-  - commercial-av-vancouver-bc
+  - home-theatre-installation-west-vancouver-bc
+  - home-theatre-installation-north-vancouver-bc
+  - home-theatre-installation-white-rock-bc
+  - smart-home-automation-west-vancouver-bc
+  - smart-home-automation-north-vancouver-bc
+  - smart-home-automation-white-rock-bc
+  - commercial-av-west-vancouver-bc
+  - commercial-av-north-vancouver-bc
+  - commercial-av-white-rock-bc
+  - home-entertainment-system-vancouver-bc
+  - home-entertainment-system-vancouver-bc
 tags:
   - digital-signs
   - commercial-automation
