@@ -11,17 +11,8 @@ metatags:
   - retail audio video
   -
 categories:
-  - home-theatre-installation-west-vancouver-bc
-  - home-theatre-installation-north-vancouver-bc
-  - home-theatre-installation-white-rock-bc
-  - smart-home-automation-west-vancouver-bc
-  - smart-home-automation-north-vancouver-bc
-  - smart-home-automation-white-rock-bc
-  - commercial-av-west-vancouver-bc
-  - commercial-av-north-vancouver-bc
-  - commercial-av-white-rock-bc
-  - home-entertainment-system-vancouver-bc
-  - home-entertainment-system-vancouver-bc
+  - commercial-av
+  - commercial-av-vancouver-bc
 tags:
   - digital-signs
   - commercial-automation

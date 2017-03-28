@@ -12,7 +12,7 @@ metatags:
   - whole-home-audio
 categories:
   - home-av
-  - home-av-vancouver
+  - home-av-vancouver-bc
 tags:
   - media-room-design
   - custom-speakers

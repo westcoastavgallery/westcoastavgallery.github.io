@@ -10,6 +10,7 @@ metatags:
   - lighting-control
   - home-networking
 categories:
+  - home-automation
   - home-automation-north-vancouver-bc
 tags:
   - voice-control
