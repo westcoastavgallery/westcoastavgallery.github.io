@@ -37,6 +37,6 @@ tags:
     <h2>Conference Room Automation</h2>
     <p>While having all these technologies is important, if you can’t get them to work together when you need to, it can feel extremely frustrating. In order to maximize the efficiency of your meetings, consider commercial automation. When all your technologies operate under one system, you are ready to present at a touch of a button. </p>
     <p>Work with an integrator to create settings ideal for several scenarios. If you’re making a presentation with the projector, use a touch panel or smartphone and select “presentation.” That will cause the screen unfurl, the projector turns on, and the audio goes to the proper settings. All you’ll need to do is connect your computer. These “scenes” can include other aspects of the room like the lighting. You can integrate <a href="https://westcoastavgallery.ca/services/commercial/other">motorized shades</a> or lighting control to create the right illumination to set off the picture.</p>
-    <p>Interested in more efficient meetings? <a href="https://westcoastavgallery.ca/contact">Contact</a> West Coast Audio today to get started.</p>
+    <p>Interested in more efficient meetings? <a href="https://westcoastavgallery.ca/contact">Contact</a> Westcoast Audio Video Gallery today to get started.</p>
 </div>
 </div>
