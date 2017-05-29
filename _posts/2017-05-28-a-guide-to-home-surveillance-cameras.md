@@ -9,8 +9,8 @@ metatags:
   - surveillance-cameras
   - smart-home-security
 categories:
-  - home-security-system-north-vancouver
-  - bc
+  - home-security-system
+  - home-security-system-north-vancouver-bc
 tags:
   - surveillance-cameras
   - smart-home-security
