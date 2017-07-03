@@ -38,10 +38,10 @@ tags:
 </p>
 <p>Control4 is the most popular mid-level home automation system and a great entry-level platform for those new to the automation space. The price point is, well, on-point at about $800 for a small controller and around $300 for a remote it’s easy to get started controlling a single room. The system offers flexibility and can manage audio, video, lighting controls, whole-house controls, security systems, motorized shades and a long list of third-party devices. </p>
 <p><strong>SEE ALSO: </strong><a href="https://westcoastavgallery.ca/whats-the-latest-in-home-automation/">What’s the Latest in Home Automation?</a></p>
-<p>Crestron offers the most robust and highly customizable system and encompasses from <a href="https://westcoastavgallery.ca/demos/virtual-demo">lighting and music</a> to security and video distribution. The systems are scalable, integrating a single room through to a mliti-building campus with the most complex of integrations. The higher-end price point is well worth the extra spend. Many third-party devices can be integrated with the system thanks to some sophisticated programming. </p>
+<p>Crestron offers the most robust and highly customizable system and encompasses from <a href="https://westcoastavgallery.ca/demos/virtual-demo">lighting and music</a> to security and video distribution. The systems are scalable, integrating a single room through to a multi-building campus with the most complex of integrations. The higher-end price point is well worth the extra spend. Many third-party devices can be integrated with the system thanks to some sophisticated programming. </p>
 <h2>Step 3: Review the Details</h2>
 <p>Control4</p>
-<ul><li>Offers the closet solution to an out-of-the-box product available, allowing for faster set-up that can be installed in minutes versus weeks</li>
+<ul><li>Offers the closest solution to an out-of-the-box product available, allowing for faster set-up that can be installed in minutes versus weeks</li>
 <li>Most robust third-party device integration including thermostats, speakers, locks and an array of Internet of Things devices</li>
 <li>Great for retrofit projects; add <a href="https://westcoastavgallery.ca/demos/smart-home-layout">home technology</a> without rewiring a home</li>
 <li>High-resolution displays are intuitive, and the system allows for audio/video control from a TV</li></ul>
