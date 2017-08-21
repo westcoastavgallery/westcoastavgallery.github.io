@@ -107,8 +107,8 @@ body {
 }
 
 .uk-list-striped>li {
-    padding: 5px 5px;
-    border-bottom: 1px solid #E5E5E5;
+  padding: 5px 5px;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .blog-category-name {
@@ -116,8 +116,36 @@ body {
 }
 
 strong {
-    font-weight: bold !important;
-    font-family: arial !important;
+  font-weight: bold !important;
+  font-family: arial !important;
+}
+
+.div-left {
+  float:left;
+  padding-left: 10px;
+
+}
+
+.div-right {
+   float:right;
+    padding-right: 10px;
+}
+
+.box {
+  position: flex;
+  max-width: 60%;
+  display: block;
+  overflow: auto;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.description-title {
+  margin-bottom: 0px;
 }
 
 /* Custom page CSS
