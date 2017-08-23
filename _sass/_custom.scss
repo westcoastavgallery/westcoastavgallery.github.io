@@ -127,8 +127,10 @@ strong {
 }
 
 .div-right {
-   float:right;
-    padding-right: 10px;
+  word-wrap: break-word;
+  float: right;
+  padding-right: 10px;
+  position: relative;
 }
 
 .box {
@@ -146,6 +148,44 @@ strong {
 
 .description-title {
   margin-bottom: 0px;
+}
+
+.product-container {
+  margin: 0 auto;
+  background: #eee;
+  width: 100% !important; 
+  // float: left;  
+  position: relative;
+  display: block;
+  clear: both;
+  margin: 5px 2px;
+}
+
+.product-box {
+  box-sizing: border-box;
+  width: 33.33% !important;
+  padding: 2px 2px 1px 1px;
+  border: none;
+  float: left;
+  display:inline-block;
+  position: relative;
+}
+
+.thumbs-up {
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 5px;
+  top: 0px;
+  right: 0px;
+  width: 25px;
+  height: 25px;
+}
+
+.inquiry-button {
+  border: 1px solid;
+  border-radius: 25px;
+  margin: 2px 2px;
+  background-color: #007cc5;
 }
 
 /* Custom page CSS
