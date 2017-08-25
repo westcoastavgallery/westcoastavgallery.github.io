@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: 'Varela';
+  font-family: 'Helvetica';
   font-size: 14px;
   line-height: 24px;
   color: #333333;
@@ -151,23 +151,23 @@ strong {
 }
 
 .product-container {
-  margin: 0 auto;
-  background: #eee;
+  margin: 0 0 0 210px;
+  // background: #eee;
   width: 100% !important; 
   // float: left;  
   position: relative;
   display: block;
-  clear: both;
+  // clear: both;
   margin: 5px 2px;
 }
 
 .product-box {
   box-sizing: border-box;
-  width: 33.33% !important;
+  // width: 33.33% !important;
   padding: 2px 2px 1px 1px;
   border: none;
   float: left;
-  display:inline-block;
+  display: inline-block;
   position: relative;
 }
 
@@ -186,6 +186,23 @@ strong {
   border-radius: 25px;
   margin: 2px 2px;
   background-color: #007cc5;
+}
+
+.products-nav {
+  float: left;
+  width: 250px;
+  display: block;
+
+}
+
+.products-page {
+  width: auto;
+  max-width: 1200px;
+  display: block;
+}
+
+.clear-float{
+  clear: both;
 }
 
 /* Custom page CSS
