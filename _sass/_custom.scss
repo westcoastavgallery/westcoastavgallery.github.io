@@ -121,9 +121,8 @@ strong {
 }
 
 .div-left {
-  float:left;
+  float: left;
   padding-left: 10px;
-
 }
 
 .div-right {
@@ -201,8 +200,13 @@ strong {
   display: block;
 }
 
-.clear-float{
+.clear-float {
   clear: both;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
 }
 
 /* Custom page CSS
