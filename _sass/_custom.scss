@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: 'Varela';
+  font-family: 'Helvetica';
   font-size: 14px;
   line-height: 24px;
   color: #333333;
@@ -107,8 +107,8 @@ body {
 }
 
 .uk-list-striped>li {
-    padding: 5px 5px;
-    border-bottom: 1px solid #E5E5E5;
+  padding: 5px 5px;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .blog-category-name {
@@ -116,8 +116,121 @@ body {
 }
 
 strong {
-    font-weight: bold !important;
-    font-family: arial !important;
+  font-weight: bold !important;
+  font-family: arial !important;
+}
+
+.div-left {
+  float: left;
+  padding-left: 10px;
+}
+
+.div-right {
+  word-wrap: break-word;
+  float: right;
+  padding-right: 10px;
+  position: relative;
+}
+
+.box {
+  // position: flex;
+  // max-width: 60%;
+  // display: block;
+  // overflow: auto;
+  //border: 1px solid black;
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.description-title {
+  margin-bottom: 0px;
+}
+
+.product-container {
+  margin: 0 0 0 210px;
+  // background: #eee;
+  width: 100% !important; 
+  // float: left;  
+  position: relative;
+  display: block;
+  // clear: both;
+  margin: 5px 2px;
+}
+
+.product-box {
+  // box-sizing: border-box;
+  // // width: 33.33% !important;
+  // padding: 2px 2px 1px 1px;
+  // border: none;
+  // // float: left;
+  // display: inline-block;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.favorite {
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 5px;
+  top: 0px;
+  right: 0px;
+  width: 25px;
+  height: 25px;
+}
+
+.inquiry-button {
+  border: 1px solid;
+  border-radius: 25px;
+  margin: 2px 2px;
+  background-color: #007cc5;
+}
+
+.products-nav {
+  float: left;
+  width: 250px;
+  display: block;
+
+}
+
+.products-page {
+  // width: auto;
+  // max-width: 1200px;
+  // display: block;
+  font-family: Helvetica;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.product-image {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.product-description {
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.product-action-buttons {
+  padding-bottom: 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+.more-detail-but {
+  background: none;
+  color: black;
+}
+
+.featured-products {
+  padding-bottom: 10px;
 }
 
 /* Custom page CSS
