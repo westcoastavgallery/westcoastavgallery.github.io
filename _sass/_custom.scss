@@ -28,6 +28,10 @@ body {
     color: #FFFFFF;
 }
 
+.uk-nav > li.uk-active > a {
+  color: black;
+}
+
 .tm-block-black {
     background-color: #444444;
 }
@@ -233,15 +237,26 @@ strong {
   padding-bottom: 10px;
 }
 
-/* Custom page CSS
+/* E-commerce related styles
 -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
+.buy-button {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
 
-// .container {
-//   width: auto;
-//   max-width: 680px;
-//   padding: 0 15px;
-// }
-// .container .text-muted {
-//   margin: 20px 0;
-// }
+.product-box {
+  padding: 15px;
+  padding-top: 30px;
+  border-radius: 5px !important;
+}
+
+.product-description {
+  padding: 10px;
+}
+
+.fa-heart {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
