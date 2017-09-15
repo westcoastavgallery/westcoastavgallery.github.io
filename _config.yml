@@ -93,8 +93,6 @@ exclude:
 
 # Build settings
 markdown: kramdown
-source: src
+#source: src
 # destination: public
-safe: true
-lsi: false
-source: src
+
