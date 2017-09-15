@@ -1,0 +1,27 @@
+---
+layout: ecommerce
+article: true
+ticker: true
+---
+<div class="uk-grid">
+    <div class="uk-width-medium-1-2">
+        <div class="uk-panel">
+        	<div class="product-image">
+								<img alt="product" src="{{page.thumbnail}}">
+							</div>
+        </div>
+    </div>
+    <div class="uk-width-medium-1-2">
+        <div class="uk-panel">
+        	<div class="uk-overflow-container">	
+						<ul class="uk-list product-description">
+							<li class="tm-article-subtitle uk-text-bold">{{page.title}}</li>
+							<li>{{page.price}}</li>
+							<li></li>
+						</ul>
+						<p>{{content}}</p>
+						<div id="buy-button"></div>
+					</div>
+        </div>
+    </div>
+</div>

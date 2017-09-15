@@ -63,7 +63,9 @@ defaults:
 #
 
 collections:
-- speakers
+  speakers:
+    output: true
+    permalink: /:collection/:title
 
 
 markdown: redcarpet
@@ -88,3 +90,9 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
+
+# Build settings
+markdown: kramdown
+source: src
+# destination: public
+
