@@ -95,4 +95,6 @@ exclude:
 markdown: kramdown
 source: src
 # destination: public
-
+safe: true
+lsi: false
+source: src
