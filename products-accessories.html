@@ -2,7 +2,7 @@
 layout: default
 title: Hear From Our Satisfied Vancouver, BC Clients!
 description: Don’t just hear from us, hear what our happy clients have to say - from home entertainment systems in Vancouver, BC to commercial AV in White Rock, BC and more!
-permalink: /products/category/speakers
+permalink: /products/category/accessories
 article: true
 ticker: true
 ---
@@ -19,10 +19,10 @@ ticker: true
 			</ul>
 		</div>
 		<div class="tm-main uk-width-medium-3-4 uk-grid-match">
-			<h4 class="tm-article-subtitle uk-text-center">Speakers</h4>
+			<h4 class="tm-article-subtitle uk-text-center">accessories</h4>
 			<div class="uk-grid ">
 
-				{% for item in site.speakers %}
+				{% for item in site.accessories %}
 
 					<div class="uk-width-medium-1-2">
 						<div class="product-box">
@@ -36,7 +36,7 @@ ticker: true
 								<ul class="uk-list product-description">
 									<li class="tm-article-subtitle uk-text-bold">{{item.title}}</li>
 									<li>{{item.price}}</li>
-									<li><button class="uk-button uk-button-primary buy-button">More details</button></li>
+									<li><a class="uk-button uk-button-primary buy-button" href="{{item.url}}">More details</a></li>
 								</ul>
 							</div>
 						</div>

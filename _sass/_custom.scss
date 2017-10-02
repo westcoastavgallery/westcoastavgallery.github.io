@@ -243,6 +243,7 @@ strong {
   width: 100%;
   border-radius: 5px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .product-box {
@@ -262,3 +263,64 @@ strong {
   margin-right: 20px;
 }
 
+.cart-button {
+  display: inline-block;
+  a {
+    cursor: pointer;
+    color: #005c92;
+  }
+  a:hover {
+    color: gray;
+  }
+}
+
+.checkout-steps {
+  height: 60px;
+  background: #cccccc;
+  list-style: none;
+
+}
+
+.checkout-product-step {
+  width: 33%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: #ccc;
+  border-bottom: 1px solid #bbb;
+  color: #999;
+  cursor: pointer;
+  display: table;
+  float: left;
+  height: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.bambora-iframe {
+  width: 100% !important;
+  height: 1300px !important;
+  background-color: white;
+}
+.tm-page.checkout {
+  background: white;
+}
+
+.mobile-menu-left {
+  position: fixed;
+  top: 5px;
+  z-index: 9999;
+}
+
+.mobile-menu-right {
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  z-index: 9999;
+}

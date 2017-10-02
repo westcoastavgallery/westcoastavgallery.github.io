@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}</title>
+    <title>{{ page.sku }}:::{{ page.price }}:::{% if page.title %}{{ page.title }} – {% endif %}</title>
     {% include meta.html %}
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
@@ -19,27 +19,14 @@
     <script src="/js/bxslider/jquery.bxslider.min.js"></script>
     <!-- bxSlider CSS file -->
     <link href="/js/bxslider/jquery.bxslider.css" rel="stylesheet" />
-    {% if page.ticker == true or page.is_post == true%}
-      <script type="text/javascript">
-      jQuery(document).ready(function(){
-      jQuery('.bxslider').bxSlider({
-      minSlides: 5,
-      maxSlides: 15,
-      slideWidth: 150,
-      slideMargin: 10,
-      ticker: true,
-      speed: 100000,
-      tickerHover:true,
-      useCSS: false
-      });
-      });
-      </script>
-    {% endif %}
+    <link rel="stylesheet" href="https://unpkg.com/react-select/dist/react-select.css">
+
   </head>
   <body class="tm-isblog">
-    <div id="root1" class="uk-flex-top" uk-modal>
-      <div class="uk-modal-dialog uk-margin-auto-vertical"></div>
-    </div>
+  <span hidden id="root3" class="uk-flex-top" uk-modal>
+              <span class="uk-modal-dialog uk-margin-auto-vertical"></span>
+            </span>
+    
     <div class="absolute"><div class="">
       <!-- This is the button toggling the off-canvas sidebar -->
       <p><a data-uk-offcanvas="{target:'#my-id1'}"><img src="/images/images2/button_flyout_offcanvas_contact.png" alt="button offcanva contact us"></a><a data-uk-offcanvas="{target:'#my-id2'}"><br><img src="/images/images2/button_flyout_offcanvas_subscribe.png" alt="button offcanva subscribe"></a>
@@ -95,13 +82,10 @@
               
             </span>|
             
-            <strong>Call Us Today
-            
-            <span itemprop="telephone">(604) 669-5001
+            <strong>Call Us Today <span itemprop="telephone">(604) 669-5001 </span> </strong>
+            <span id="root1" class="uk-flex-top" uk-modal>
+              <span class="uk-modal-dialog uk-margin-auto-vertical"></span>
             </span>
-            
-            </strong>
-            
           </p>
           
         </div>
@@ -225,31 +209,32 @@
             </li>
           </ul>
         </div>
-        
-        
-        
-        <div class="uk-hidden-large">
-          
-          <a href="#offcanvas" class="uk-navbar-toggle" data-uk-offcanvas="">
-          </a>
-          
-        </div>
-        
-        
+
+
+
+
         <a class="tm-logo uk-navbar-brand uk-visible-large" href="/">
-          
+
           <img src="/images/logo.png" alt="Logo Westcoast Audio Video Gallery">
-          
+
         </a>
-        
-        
+
+
         <div class="uk-navbar-content uk-navbar-center uk-hidden-large">
-          
+
           <a class="tm-logo-small" href="">
-            
+
             <img class="uk-responsive-height" src="/images/logo-west-cost-av-small.png" alt="Logo Westcoast Audio Video Gallery Small">
-            
+
           </a>
+        </div>
+
+        <div class="uk-hidden-large mobile-menu-left">
+          <a href="#offcanvas" class="uk-navbar-toggle" data-uk-offcanvas=""></a>
+        </div>
+
+        <div class="uk-hidden-large mobile-menu-right">
+          <span id="root5"></span>
         </div>
         
       </nav>
@@ -266,24 +251,7 @@
                         <div>
                           <li>
                             <ul class="uk-nav">
-                              <li class="uk-nav-header">Products</li></li>
-                              <li><a href="#">Accessories</a></li>
-                              <li><a href="#">AV Receivers</a></li>
-                              <li><a href="#">Bluetooth Speakers</a></li>
-                              <li><a href="#">Cables</a></li>
-                              <li><a href="#">CD Players</a></li>
-                              <li><a href="#">Compact Systems</a></li>
-                              <li><a href="#">DAC's</a></li>
-                              <li><a href="#">Digital Player</a></li>
-                              <li><a href="#">Headphone Amplifiers</a></li>
-                              <li><a href="#">Headphone</a></li>
-                              <li><a href="#">Phone Cartiridges</a></li>
-                              <li><a href="#">Phone Preamps</a></li>
-                              <li><a href="#">Portable Players</a></li>
-                              <li class="uk-active"><a href="#">Speakers</a></li>
-                              <li><a href="#">Surround Processors</a></li>
-                              <li><a href="#">Tuners</a></li>
-                              <li><a href="#">Turntables</a></li>
+                              {% include products-list.html %}
                             </ul>
                           </li>
                         </div>

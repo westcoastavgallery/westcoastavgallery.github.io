@@ -1,0 +1,50 @@
+- name: Accessories
+  slug: accessories
+
+- name: AV Receivers
+  slug: av-receivers
+
+- name: Bluetooth Speakers
+  slug: bluetooth-speakers
+
+- name: Cables
+  slug: cables
+
+- name: CD Players
+  slug: cd-players
+
+- name: Compact Systems
+  slug: compact-systems
+
+- name: DAC's
+  slug: dacs
+
+- name: Digital Player
+  slug: digital-player
+
+- name: Headphone Amplifiers
+  slug: headphone-amplifiers
+
+- name: Headphone
+  slug: headphone
+
+- name: Phone Cartridges
+  slug: phone-cartridges
+
+- name: Phone Preamps
+  slug: phone-preamps
+
+- name: Portable Players
+  slug: portable-players
+
+- name: Speakers
+  slug: speakers
+
+- name: Surround Processors
+  slug: surround-processors
+
+- name: Tuners
+  slug: tuners
+
+- name: Turntables
+  slug: turntables
