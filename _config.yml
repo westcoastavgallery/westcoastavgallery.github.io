@@ -63,9 +63,58 @@ defaults:
 #
 
 collections:
+  accessories:
+    output: true
+    permalink: /category/:collection/:title
+  av-receivers:
+    output: true
+    permalink: /category/:collection/:title
+  bluetooth-speakers:
+    output: true
+    permalink: /category/:collection/:title
+  cables:
+    output: true
+    permalink: /category/:collection/:title
+  cd-players:
+    output: true
+    permalink: /category/:collection/:title
+  compact-systems:
+    output: true
+    permalink: /category/:collection/:title
+  dacs:
+    output: true
+    permalink: /category/:collection/:title
+  digital-player:
+    output: true
+    permalink: /category/:collection/:title
+  headphone-amplifiers:
+    output: true
+    permalink: /category/:collection/:title
+  headphone:
+    output: true
+    permalink: /category/:collection/:title
+  phone-cartridges:
+    output: true
+    permalink: /category/:collection/:title
+  phone-preamps:
+    output: true
+    permalink: /category/:collection/:title
+  portable-players:
+    output: true
+    permalink: /category/:collection/:title
   speakers:
     output: true
-    permalink: /:collection/:title
+    permalink: /category/:collection/:title
+  surround-processors:
+    output: true
+    permalink: /category/:collection/:title
+  tuners:
+    output: true
+    permalink: /category/:collection/:title
+  turntables:
+    output: true
+    permalink: /category/:collection/:title
+
 
 
 markdown: redcarpet
