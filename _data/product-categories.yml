@@ -1,7 +1,7 @@
 categories:
   - name: Accessories
     slug: accessories
-  - name: AV Receivers
+  - name: AV-Receivers
     slug: av-receivers
   - name: Bluetooth Speakers
     slug: bluetooth-speakers
@@ -33,4 +33,3 @@ categories:
     slug: tuners
   - name: Turntables
     slug: turntables
-    
