@@ -1,0 +1,4 @@
+---
+name: Accessories
+slug: accessories
+---

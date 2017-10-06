@@ -7,9 +7,9 @@ backend:
 media_folder: "img/uploads"
 
 collections: # A list of collections the CMS should be able to edit 
-  - name: "accessories" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Accessories" # Used in the UI, ie.: "New Post"
-    folder: "_accessories" # The path to the folder where the documents are stored
+  - name: "products" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Products" # Used in the UI, ie.: "New Post"
+    folder: "_products" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -24,327 +24,34 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Short Description", name: "short", widget: "string"}
       - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
+      - name: brand
+        label: Brand
+        widget: relation
+        collection: brands
+        searchFields: [name]
+        valueField: slug
+      - name: categories
+        label: Categories
+        widget: relation
+        collection: product-categories
+        searchFields: [name]
+        valueField: slug
       - {label: "Price", name: "price", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "av-receivers" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "av-receivers" # Used in the UI, ie.: "New Post"
-    folder: "_av-receivers" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
+
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - name: "product-categories"
+        label: "Product Categories"
+        file: "_data/product-categories.yml"
+        description: "Product Categories"
         fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "bluetooth-speakers" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "bluetooth-speakers" # Used in the UI, ie.: "New Post"
-    folder: "bluetooth-speakers" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "cables" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "cables" # Used in the UI, ie.: "New Post"
-    folder: "_cables" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "cd-players" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "cd-players" # Used in the UI, ie.: "New Post"
-    folder: "_cd-players" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "compact-systems" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "compact-systems" # Used in the UI, ie.: "New Post"
-    folder: "_compact-systems" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "dacs" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "dacs" # Used in the UI, ie.: "New Post"
-    folder: "_dacs" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "digital-player" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "digital-player" # Used in the UI, ie.: "New Post"
-    folder: "_digital-player" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "headphone-amplifiers" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "headphone-amplifiers" # Used in the UI, ie.: "New Post"
-    folder: "_headphone-amplifiers" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "headphone" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "headphone" # Used in the UI, ie.: "New Post"
-    folder: "_headphone" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "phone-cartridges" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "phone-cartridges" # Used in the UI, ie.: "New Post"
-    folder: "_phone-cartridges" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "phone-preamps" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "phone-preamps" # Used in the UI, ie.: "New Post"
-    folder: "_phone-preamps" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "portable-players" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "portable-players" # Used in the UI, ie.: "New Post"
-    folder: "_portable-players" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "speakers" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "speakers" # Used in the UI, ie.: "New Post"
-    folder: "_speakers" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "surround-processors" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "surround-processors" # Used in the UI, ie.: "New Post"
-    folder: "_surround-processors" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "tuners" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "tuners" # Used in the UI, ie.: "New Post"
-    folder: "_tuners" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "turntables" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "turntables" # Used in the UI, ie.: "New Post"
-    folder: "_turntables" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - name: images
-        label: "More Images"
-        widget: list
-        fields:
-          - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Short Description", name: "short", widget: "string"}
-      - {label: "Sku", name: "sku", widget: "string"}
-      - {label: "Brand", name: "brand", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
- 
+          - name: categories
+            label: Categories
+            widget: list
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Slug", name: "slug", widget: "string"}

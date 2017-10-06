@@ -1,6 +1,12 @@
 <li class="uk-nav-header">Products</li></li>
-{% for product in site.data.products %}
+{% for product in site.data.product-categories.categories %}
 <li>
     <a href="{{ site.url }}/products/category/{{ product.slug }}">{{ product.name }}</a>
+</li>
+{% endfor %}
+<li class="uk-nav-header">Brands</li></li>
+{% for brand in site.data.product-brands.brands %}
+<li>
+    <a href="{{ site.url }}/products/category/{{ product.slug }}">{{ brand.name }}</a>
 </li>
 {% endfor %}
