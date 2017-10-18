@@ -2,7 +2,7 @@ backend:
   name: github
   repo: westcoastavgallery/westcoastavgallery.github.io
   branch: master
-  base_url: https://westcoast-oath-provider.herokuapp.com
+  base_url:  http://localhost:7777
 
 media_folder: "img/uploads"
 
