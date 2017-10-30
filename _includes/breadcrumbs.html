@@ -1,0 +1,9 @@
+<div class="uk-width-medium-1-2">
+    <img class="product" src="{{page.images.first.thumbnail}}" />
+    <!--<div class="uk-cover-background product-image" style="background-image: url({{page.images.first.thumbnail}});"></div>-->
+    <div>
+        {% for item in page.images %}
+        <img class="horizontal-thumbnails" src="{{ item.thumbnail }}" />
+        {% endfor %}
+    </div>
+</div>

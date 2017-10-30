@@ -2,7 +2,7 @@ backend:
   name: github
   repo: westcoastavgallery/westcoastavgallery.github.io
   branch: master
-  base_url: https://westcoast-oath-provider.herokuapp.com
+  base_url: http://api.westcoastavgallery.ca:7777
 
 media_folder: "img/uploads"
 
@@ -14,7 +14,8 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
+      - {label: "Show", name: show, widget: boolean}
+#      - {label: "Thumbnail", name: thumbnail, widget: image, class: "thumb"}
       - name: images
         label: "More Images"
         widget: list
@@ -24,20 +25,30 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Short Description", name: "short", widget: "string"}
       - {label: "Sku", name: "sku", widget: "string"}
-      - name: brand
-        label: Brand
-        widget: relation
-        collection: brands
-        searchFields: [name]
-        valueField: slug
-      - name: categories
-        label: Categories
-        widget: relation
-        collection: product-categories
-        searchFields: [name]
-        valueField: slug
+      - {label: "Brand", name: "brand", widget: "relation", collection: "brands", searchFields: ["name","slug"], valueField: "name"}
+      - {label: "Category", name: "category", widget: "relation", collection: "product-categories", searchFields: ["name","slug"], valueField: "name"}
       - {label: "Price", name: "price", widget: "string"}
+      - {label: "Shipping Price", name: "shipping", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "brands" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Brands" # Used in the UI, ie.: "New Post"
+    folder: "_brands" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Show", name: show, widget: boolean}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+  - name: "product-categories" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Product Category" # Used in the UI, ie.: "New Post"
+    folder: "_product-categories" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Show", name: show, widget: boolean}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+
 
   - name: "settings"
     label: "Settings"

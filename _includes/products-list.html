@@ -1,12 +1,18 @@
-<li class="uk-nav-header">Products</li></li>
-{% for product in site.data.product-categories.categories %}
-<li>
+<li class="uk-nav-header">Products</li>
+{% for product in site.product-categories %}
+
+{% if product.show == true %}
+
+<li {% if page.url contains product.slug %} class="uk-active"{% endif %}>
     <a href="{{ site.url }}/products/category/{{ product.slug }}">{{ product.name }}</a>
 </li>
+
+{% endif %}
+
 {% endfor %}
-<li class="uk-nav-header">Brands</li></li>
-{% for brand in site.data.product-brands.brands %}
+<li class="uk-nav-header">Brands</li>
+{% for brand in site.brands %}
 <li>
-    <a href="{{ site.url }}/products/category/{{ product.slug }}">{{ brand.name }}</a>
+    <a href="{{ site.url }}/brands/{{ brand.slug }}">{{ brand.name }}</a>
 </li>
 {% endfor %}
