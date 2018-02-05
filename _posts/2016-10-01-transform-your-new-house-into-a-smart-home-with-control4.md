@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Transform Your New House Into a Smart Home with Control4
-excerpt: 'As smart home automation and commercial AV integrators for the Vancouver region, we pride in providing you with a smart system with added convenience and style.'
+excerpt: 'Vancouver  Home Theater Smart Home Home Audio Stereo & Video Integration Automation - Paradigm Sonos Martin Logan Control 4 Denon Marantz Cambridge Definitive Technology JVC Projectors Crestron Anthem Amplifier'
 original-url:
 cover: 'https://westcoastavgallery.ca/uploads/versions/transform-your-new-house-into-a-smart-home-with-control4---x0-0-800-533-630-420x---.jpg'
 summary: 'There’s nothing like the feeling of moving into a new house. The whole space buzzes with possibilities and improvements. In this day and age, technology allows us the opportunity to, not only customize our living spaces, but optimize them. Home automation gives new homeowners the power to access their electronic devices and systems from any location in the world, and even let their home run on autopilot. Control4 is the brain behind your West Vancouver, BC smart home, connecting and controlling all of your home’s devices into one easy-to-manage system. Interested in enhancing your new living space? Read on for some tips to keep in mind throughout your new construction or interior design process.'

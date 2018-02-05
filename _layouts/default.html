@@ -18,7 +18,6 @@
     <!-- bxSlider Javascript file -->
     <script src="/js/bxslider/jquery.bxslider.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/react-select/dist/react-select.css">
-
     <!-- bxSlider CSS file -->
     <link href="/js/bxslider/jquery.bxslider.css" rel="stylesheet" />
     {% if page.ticker == true or page.is_post == true%}
@@ -68,6 +67,18 @@
     </div></div></div>
     
     <div class="tm-toolbar uk-clearfix uk-hidden-small">
+      <div class="uk-float-left">
+        
+        <div class="uk-panel">
+          
+          <p>
+            <strong>Monday - Friday:</strong> 10:00 am - 6:00 pm |
+            <strong>Saturday:</strong> 11am to 6pm
+          </p>
+          
+        </div>
+        
+      </div>
       
       <div class="uk-float-right">
         
@@ -203,7 +214,10 @@
               <a href="/image-gallery">Gallery
               </a>
             </li>
-            
+            <li data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}" class="">
+              <a href="/contact">Contact Us
+              </a>
+            </li>
             <li class="uk-parent" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
               <a>
                 More
@@ -212,11 +226,11 @@
                 <div class="uk-grid">
                   <div class="uk-width-1-1">
                     <ul class="uk-nav uk-nav-navbar">
-                       <li><a href="https://www.canuckaudiomart.com/userads.php?user_id=20341" target="_blank">Demo Sale</a></li>
-                       <li><a href="/newsblog">Blog</a></li>
-                       <li><a href="/contact">Contact</a></li>
-                       <li><a href="/careers">Careers</a></li>
-                       <li><a href="http://videos.westcoastavgallery.ca/" target="_blank">Videos</a></li>
+                      <li><a href="https://www.canuckaudiomart.com/userads.php?user_id=20341" target="_blank">Demo Sale</a></li>
+                      <li><a href="/newsblog">Blog</a></li>
+                      <!-- <li><a href="/contact">Contact</a></li> -->
+                      <li><a href="/careers">Careers</a></li>
+                      <li><a href="http://videos.westcoastavgallery.ca/" target="_blank">Videos</a></li>
                     </ul>
                   </div>
                 </div>
@@ -264,9 +278,9 @@
             <div class="uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
               <div class="tm-main uk-width-medium-1-1">
                 <main class="tm-content">
-                <article class="uk-article">
-                  {{ content }}
-                </article>
+                  <article class="uk-article">
+                    {{ content }}
+                  </article>
                 </main>
               </div>
             </div>
@@ -417,18 +431,16 @@
       </div>
     </div>
     {% include analytics.html %}
-
-<!-- Start of LiveChat (www.livechatinc.com) code -->
-<script type=""text/javascript"">
-window.__lc = window.__lc || {};
-window.__lc.license = 7869351;
-(function() {
-  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-})();
-</script>
-<!-- End of LiveChat code -->
-
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+    <script type=""text/javascript"">
+    window.__lc = window.__lc || {};
+    window.__lc.license = 7869351;
+    (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+    </script>
+    <!-- End of LiveChat code -->
   </body>
 </html>

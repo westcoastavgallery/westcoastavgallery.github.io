@@ -1,6 +1,6 @@
 ---
 layout: post
-excerpt: 'As smart home automation and commercial AV integrators for the Vancouver region, we pride in providing you with a smart system with added convenience and style.'
+excerpt: 'Vancouver  Home Theater Smart Home Home Audio Stereo & Video Integration Automation - Paradigm Sonos Martin Logan Control 4 Denon Marantz Cambridge Definitive Technology JVC Projectors Crestron Anthem Amplifier'
 title: Paradigm Persona Speakers Will Elevate Your White Rock, BC Theatre
 original-url:
 cover: 'https://westcoastavgallery.ca/images/articles/paradigm-persona-blog.png'
