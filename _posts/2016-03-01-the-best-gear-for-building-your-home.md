@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Best Gear for Building Your Home Theater Includes Anthem MRX 520
-excerpt: 'Vancouver  Home Theater Smart Home Home Audio Stereo & Video Integration Automation - Paradigm Sonos Martin Logan Control 4 Denon Marantz Cambridge Definitive Technology JVC Projectors Crestron Anthem Amplifier'
+title: The Best Home Theater Equipment in Vancouver
+excerpt: 'At West Coast Audio Video Gallery in Vancouver, we believe that the best gear for building your home theater system includes Anthem MRX 520. Learn more about this by visiting our website.'
 original-url: http://blog.anthemav.com/2016/03/the-best-gear-for-building-your-home.html
 cover: https://3.bp.blogspot.com/-31dp30eZcq4/VtYOvUHlEOI/AAAAAAAAAFY/Fw81x_wNHZk/s400/01-lead-image-home-theater-collective-630.jpg
 summary: The Wirecutter's A/V team spends thousands of hours each year to find the best looking and sounding home theater equipment. Whether you have a dedicated theater room planned or want to upgrade your weeknight living room movie night, they have recommendations covering whatever space and budget you have...

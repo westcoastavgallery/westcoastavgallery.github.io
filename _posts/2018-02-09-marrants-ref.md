@@ -1,7 +1,7 @@
 ---
 layout: post
-excerpt: 'Marrantz Reference Series'
-title: Marrantz Reference Series
+title: Marantz Reference Series Home Audio Vancouver
+excerpt: 'The Marantz Reference Series PM-10 integrated amplifier and SA-10 SACD/CD Player with USB DAC and digital inputs can be purchased at West Coast Audio Video Gallery in Vancouver. Learn more about this product. '
 original-url:
 cover: '/images/articles/18-02-09/Marantz-PM-10-Reference-Amplifier-Vancouver.jpg'
 summary: 'Marrantz Reference Series'

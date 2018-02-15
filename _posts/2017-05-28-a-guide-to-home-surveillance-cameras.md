@@ -1,7 +1,7 @@
 ---
 layout: post
-excerpt: 'Many aspects go into a home security system--from access control to alarms. In this article, we’re going to focus on surveillance cameras and how to find the right type for your home'
-title: A Guide to Home Surveillance Cameras
+title: Vancouver Home Surveillance Cameras
+excerpt: 'West Coast Audio Video Gallery in Vancouver carries home surveillance cameras to enhance your home security system. Learn more about our home surveillance cameras.'
 original-url:
 cover: '/images/articles/17-05-home-security.png'
 summary: 'Many aspects go into a home security system--from access control to alarms. In this article, we’re going to focus on surveillance cameras and how to find the right type for your home.'

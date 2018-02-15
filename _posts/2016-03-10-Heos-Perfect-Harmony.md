@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Music + a Meal = Perfect Harmony
-excerpt: 'Vancouver  Home Theater Smart Home Home Audio Stereo & Video Integration Automation - Paradigm Sonos Martin Logan Control 4 Denon Marantz Cambridge Definitive Technology JVC Projectors Crestron Anthem Amplifier'
+title: Music & Meals With the Perfect Home Audio
+excerpt: 'Nothing beats music and a good meal. Visit our website to learn about 3 delicious dinner recipes that can be paired perfectly with our recommended playlists.'
 original-url: http://heosvibe.denon.com/blog/Lists/Posts/Post.aspx?Id=58
 cover: http://heosvibe.denon.com/blog/Post_Assets/images/dinner-music.png
 metatags: [audio-video, vancouver audio video, vancouver receivers]

@@ -1,7 +1,7 @@
 ---
 layout: post
-excerpt: 'Here is a high end stereo system featuring the Marantz PM10'
-title: Here is a high end stereo system featuring the Marantz PM10
+title: Home Audio Stereo System Featuring Marantz PM10
+excerpt: 'The Marantz PM10 integrated reference amplifier is a high-end amplifier that makes the perfect addition to any home or commercial stereo system. Learn more.'
 original-url:
 cover: '/images/articles/18-02-a.JPG'
 summary: 'Here is a high end stereo system featuring the Marantz PM10 integrated reference amplifier, the Marantz SA-10 reference SACD Player.'

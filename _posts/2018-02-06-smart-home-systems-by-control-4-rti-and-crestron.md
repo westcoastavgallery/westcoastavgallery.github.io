@@ -1,7 +1,7 @@
 ---
 layout: post
-excerpt: 'Smart Home Systems by Control 4, RTI, and Crestron.'
-title: Smart Home Systems by Control 4, RTI, and Crestron.
+title: Smart Home Systems From Control 4, RTI & Creston
+excerpt: 'Smart home systems from Control 4, RTI and Creston at West Coast Audio Video Gallery in Vancouver. Learn more about our smart home automation.'
 original-url:
 cover: '/images/articles/18-02-1.JPG'
 summary: 'Smart Home Systems by Control 4, RTI, and Crestron.'
