@@ -1,7 +1,7 @@
 ---
 layout: post
-excerpt: 'Building a beautiful home audio video system requires the right equipment. In the world of audio, every space needs a unique solution that depends on the acoustics and audience.'
-title: Combine Style and Quality with Custom Home Audio
+title: Custom Home Audio Systems Vancouver
+excerpt: 'Learn how to combine style and quality with custom home audio systems from West Coast Audio Video Gallery in Vancouver. We carry the Horizon Series of custom-built soundbars from Leon. Learn more. '
 original-url:
 cover: 'https://westcoastavgallery.ca/images/articles/leon.png'
 summary: 'Building a beautiful home audio video system requires the right equipment. In the world of audio, every space needs a unique solution that depends on the acoustics and audience. Plus, you want to make certain that your equipment fits in with your decor. Doesn’t it make sense to design custom equipment to meet these needs?'

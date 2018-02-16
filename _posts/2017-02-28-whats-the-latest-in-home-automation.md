@@ -1,7 +1,7 @@
 ---
 layout: post
-excerpt: 'Building a beautiful home audio video system requires the right equipment. In the world of audio, every space needs a unique solution that depends on the acoustics and audience.'
-title: What’s the Latest in Home Automation?
+title: Vancouver Home Automation: What's the Latest
+excerpt: 'What's the latest in home automation? At West Coast Audio Video Gallery in Vancouver, we share 4 new innovations in smart technology that are perfect for your North Vancouver home. Learn more.'
 original-url:
 cover: '/images/articles/17-02-crestron.png'
 summary: 'In the ever-changing world of home automation, there are always exciting technologies you can add to your system. Sometimes, this can feel overwhelming. How will these new technologies affect your home, and do you really need them?'

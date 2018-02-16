@@ -1,7 +1,7 @@
 ---
 layout: post
-excerpt: 'Martin Logan Masterpiece Speakers Vancouver'
-title: Martin Logan Masterpiece Speakers Vancouver
+title: Martin Logan Masterpiece Speakers in Vancouver
+excerpt: 'At West Coast Audio Video Gallery in Vancouver, we carry Martin Logan Masterpiece Speakers. These are top of the line speakers that produce incredible sound. Visit our Vancouver location to hear these speakers for yourself.'
 original-url:
 cover: '/images/articles/18-02-08-a/Martin_Logan_Vancouver-_West_Coast_AV_-expression-esl-13.jpg'
 summary: 'Martin Logan Masterpiece Speakers Vancouver'

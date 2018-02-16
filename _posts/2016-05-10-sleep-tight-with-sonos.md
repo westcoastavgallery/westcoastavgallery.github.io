@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sleep tight with Sonos
-excerpt: 'Vancouver  Home Theater Smart Home Home Audio Stereo & Video Integration Automation - Paradigm Sonos Martin Logan Control 4 Denon Marantz Cambridge Definitive Technology JVC Projectors Crestron Anthem Amplifier'
+title: Sonos Music Controller App For Sleeping
+excerpt: 'The Sonos app is the perfect app for getting a good night sleep. Learn about the many different features of the Sonos app and how it can benefit your sleeping routine.'
 original-url: http://blog.sonos.com/tips-and-tricks/sleep-tight-with-sonos
 cover: https://westcoastavgallery.ca/images/articles/sonos_photo_3.jpg
 summary: Dim the lights low. Draw the blinds. Turn on the slow jams. Let’s talk about the bedroom. Hey, not like that! We’re talking about your other favorite bedroom activity, sleep. We all know the importance of a good night sleep. But you work, you commute, you cook, you play, you Netflix, you work more in between...

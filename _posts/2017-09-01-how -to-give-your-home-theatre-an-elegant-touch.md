@@ -1,7 +1,7 @@
 ---
 layout: post
-excerpt: 'When installing home theatre systems in luxury spaces, you need to consider more than just AV performance.'
-title: How to Give Your Home Theatre an Elegant Touch 
+title: Vancouver Home Theater Systems
+excerpt: 'Learn how to give your home an elegant touch with four stylistic solutions for your entertainment space including camouflage speakers, media furniture and true theater seating.'
 original-url:
 cover: '/images/articles/17-09-theater.png'
 summary: 'The world of home automation is constantly evolving and can feel overwhelming if you’re trying to research the many different systems available on the market.'
