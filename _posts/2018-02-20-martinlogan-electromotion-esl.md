@@ -1,10 +1,10 @@
 ---
 layout: post
-excerpt: 'Nice review of the Paradigm Speakers Persona 7F'
-title: Nice review of the Paradigm Speakers Persona 7F
+excerpt: 'The Martinlogan Electromotion ESL X Speakers'
+title: The Martinlogan Electromotion ESL X Speakers
 original-url:
 cover: '/images/articles/18-02-20/martin-logan.jpg'
-summary: 'Nice review of the Paradigm Speakers Persona 7F'
+summary: 'The Martinlogan Electromotion ESL X Speakers'
 metatags: martin-logan
 categories:
 - martin-logan
