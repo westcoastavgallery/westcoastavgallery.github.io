@@ -4,7 +4,7 @@
 {% if product.show == true %}
 
 <li {% if page.url contains product.slug %} class="uk-active"{% endif %}>
-    <a href="{{ site.url }}/products/category/{{ product.slug }}">{{ product.name }}</a>
+    <a href="/product-categories/{{ product.slug }}">{{ product.name }}</a>
 </li>
 
 {% endif %}
@@ -13,6 +13,6 @@
 <li class="uk-nav-header">Brands</li>
 {% for brand in site.brands %}
 <li>
-    <a href="{{ site.url }}/brands/{{ brand.slug }}">{{ brand.name }}</a>
+    <a href="/brands/{{ brand.slug }}">{{ brand.name }}</a>
 </li>
 {% endfor %}

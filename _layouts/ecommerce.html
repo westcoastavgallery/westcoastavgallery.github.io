@@ -26,9 +26,9 @@
     <link rel="stylesheet" href="https://unpkg.com/react-select/dist/react-select.css">
 </head>
 <body class="tm-isblog">
-<span hidden id="root3" class="uk-flex-top" uk-modal>
+<!-- <span hidden id="root3" class="uk-flex-top" uk-modal>
               <span class="uk-modal-dialog uk-margin-auto-vertical"></span>
-            </span>
+            </span> -->
 
 <div class="absolute">
     <div class="">
@@ -99,9 +99,9 @@
             </span>|
 
                 <strong>Call Us Today <span itemprop="telephone">(604) 669-5001 </span> </strong>
-                <span id="root1" class="uk-flex-top" uk-modal>
+<!--                 <span id="root1" class="uk-flex-top" uk-modal>
               <span class="uk-modal-dialog uk-margin-auto-vertical"></span>
-            </span>
+            </span> -->
             </p>
 
         </div>
@@ -452,18 +452,7 @@
         </div>
     </div>
     {% include analytics.html %}
-    <!-- Start of LiveChat (www.livechatinc.com) code -->
-    <script type="" text
-    /javascript"">
-    window.__lc = window.__lc || {};
-    (window.__lc.license = 7869351, window.__lc.chat_between_groups = false) 
-    (function() {
-    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-    })();
-  </script>
-    <script src="/js/bundle.js"></script>
-    <!-- End of LiveChat code -->
+    {% include livechat.html %}
+    <!-- <script src="/js/bundle.js"></script> -->
 </body>
 </html>

@@ -14,7 +14,7 @@ short: >-
   dual ball bearings rated at 67,000 hours, the unit can be mounted in any
   direction.
 sku: '37758552657'
-brand: Denon
+brand: martin-logan
 category: accessories
 price: '1000.60'
 shipping: '100.88'
