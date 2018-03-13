@@ -1,3 +1,16 @@
+$high-tide: 930px;
+
+
+@media (max-width: 1500px) {
+  .logo {
+    width: 300px;
+  }
+  .uk-navbar-brand {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+}
+
 .uk-description-list-line > dd {
     color: #627588;
 }

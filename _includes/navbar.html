@@ -1,0 +1,139 @@
+<nav class="tm-navbar uk-navbar">
+    <div class="uk-navbar-flip">
+        <ul class="uk-navbar-nav uk-visible-large">
+            <li class="uk-parent" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
+                <a>
+                    Services
+                </a>
+                <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-2" style="width: 480px;">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-2">
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li>
+                                    <a href="/services/residential">Residential
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="uk-width-1-2">
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li class="uk-parent">
+                                    <a href="/services/commercial-page">Commercial
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/services/commercial/boardrooms">
+                                                <i class="uk-icon-chevron-right">
+                                                </i> Boardrooms
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/services/commercial/mdu">
+                                                <i class="uk-icon-chevron-right">
+                                                </i> MDU Automation Vancouver, BC
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/services/commercial/other">
+                                                <i class="uk-icon-chevron-right">
+                                                </i> Other
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
+                <a href="/brands">Brands
+                </a>
+            </li>
+            <li class="uk-parent" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
+                <a>Products</a>
+                <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-1">
+                            <ul class="uk-nav uk-nav-navbar">
+                                {% for product in site.product-categories %} {% if product.show == true %}
+                                <li {% if page.url contains product.slug %} class="uk-active" {% endif %}>
+                                    <a href="/product-categories/{{ product.slug }}">{{ product.name }}</a>
+                                </li>
+                                {% endif %} {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
+                <a class="uk-hidden" href="/">Home
+            </a>
+            </li>
+            <li data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}" class="">
+                <a href="/clients">Clients
+            </a>
+            </li>
+            <li class="uk-parent" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
+                <a>
+                Demos
+            </a>
+                <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-1">
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li>
+                                    <a href="/demos/virtual-demo">Virtual Demo
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="/demos/smart-home-layout">Smart Home Layout
+                                </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
+                <a href="/image-gallery">Gallery
+            </a>
+            </li>
+            <li class="uk-parent" data-uk-dropdown="{boundary:&quot;.tm-page:first&quot;}">
+                <a>
+                More
+            </a>
+                <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-1">
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li><a href="https://www.canuckaudiomart.com/userads.php?user_id=20341" target="_blank">Demo Sale</a></li>
+                                <li><a href="/newsblog">Blog</a></li>
+                                <li><a href="/careers">Careers</a></li>
+                                <li><a href="/interior-design-vancouver">Interior Design</a></li>
+                                <li><a href="http://videos.westcoastavgallery.ca/" target="_blank">Videos</a></li>
+                                <li><a href="/contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="uk-hidden-large">
+        <a href="#offcanvas" class="uk-navbar-toggle" data-uk-offcanvas="">
+    </a>
+    </div>
+    <a class="tm-logo uk-navbar-brand uk-visible-large" href="/">
+    
+    <img class="logo" src="/images/logo.png" alt="Logo Westcoast Audio Video Gallery">
+    
+</a>
+    <div class="uk-navbar-content uk-navbar-center uk-hidden-large">
+        <a class="tm-logo-small" href="">
+        
+        <img class="uk-responsive-height" src="/images/logo-west-cost-av-small.png" alt="Logo Westcoast Audio Video Gallery Small">
+        
+    </a>
+    </div>
+</nav>
