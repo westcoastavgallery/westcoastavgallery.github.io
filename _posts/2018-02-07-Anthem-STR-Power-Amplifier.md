@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anthem STR Power Amplifier in Vancouver
-excerpt: 'The Anthem STR Power Amplifier, Integrated Amplifier and Preamplifier are world class audio systems that can be purchased at West Coast Audio Video Gallery in Vancouver. Learn more.'
+excerpt: 'The Anthem STR Power Amplifier, Integrated Amplifier and Preamplifier are world class audio systems that can be purchased at Westcoast Audio Video Gallery in Vancouver. Learn more.'
 original-url:
 cover: '/images/articles/18-02-08-b/Anthem_Vancouver_STR_Integrated_amp_Persona_Speaker_Lifestyle.jpg'
 summary: 'Anthem STR Power Amplifier, Integrated Amplifier, and Preamplifier'

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Install a Home Theater System in Vancouver 
-excerpt: 'There are many benefits to installing a home security system in your Vancouver home. Learn how to keep your home secure and safe with a smart surveillance system from West Coast Audio Video Gallery in Vancouver.'
+excerpt: 'There are many benefits to installing a home security system in your Vancouver home. Learn how to keep your home secure and safe with a smart surveillance system from Westcoast Audio Video Gallery in Vancouver.'
 original-url:
 cover: '/images/articles/17-10.png'
 summary: 'There’s nothing more important than keeping your family and home safe.  Now whether you’re home or away, you can rest assured that both will be.'

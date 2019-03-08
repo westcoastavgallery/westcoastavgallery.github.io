@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4 Home Theater System Essentials
-excerpt: 'Learn how to fully optimize your dedicated home theater system with the proper audio, video, lighting and integration from West Coast Audio Video Gallery in Vancouver. '
+excerpt: 'Learn how to fully optimize your dedicated home theater system with the proper audio, video, lighting and integration from Westcoast Audio Video Gallery in Vancouver. '
 original-url:
 cover: '/images/articles/17-04-theatre.png'
 summary: 'If you love the theatre experience, it might be time to bring it home. With the help of home automation and top-notch audio video equipment'
