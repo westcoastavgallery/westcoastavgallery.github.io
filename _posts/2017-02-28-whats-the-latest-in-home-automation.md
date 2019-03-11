@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vancouver Home Automation: What's the Latest"
-excerpt: "What's the latest in home automation? At Westcoast Audio Video Gallery in Vancouver, we share 4 new innovations in smart technology that are perfect for your North Vancouver home. Learn more."
+excerpt: "What's the latest in home automation? At West Coast Audio Video Gallery in Vancouver, we share 4 new innovations in smart technology that are perfect for your North Vancouver home. Learn more."
 original-url:
 cover: '/images/articles/17-02-crestron.png'
 summary: 'In the ever-changing world of home automation, there are always exciting technologies you can add to your system. Sometimes, this can feel overwhelming. How will these new technologies affect your home, and do you really need them?'
@@ -33,6 +33,6 @@ tags:
     <p>We especially like new smart ovens. For one thing, you’ll never worry that your oven has been left on again; you can check on your smartphone. Plus, you can integrate your oven with your security system to alert you if there seems to be a problem.</p>
     <h2>4. Better Networks </h2>
     <p>As your home takes on more and more devices, you may need to improve your <a href="https://westcoastavgallery.ca/services/residential#networking">network</a>. The Internet of Things is only possible through a wireless connection. So, after you’ve made the investment in your home’s technologies, you will want to take the time to ensure that they work to their fullest potential. Improving your home’s Wi-Fi can come in many forms. You can update your router to the latest model. You can add extenders to expand your connection reach. You can improve your home’s wiring, perhaps incorporating fiber optics capability. Whatever the best solution for your home, trust your professional integrator to make it happen.</p>
-    <p>Whether you are a current smart home owner looking for improvements or looking to add automation, Westcoast AV Gallery can help. <a href="https://westcoastavgallery.ca/contact">Contact us</a> today, tell us about your project, and we can get started.</p>
+    <p>Whether you are a current smart home owner looking for improvements or looking to add automation, West Coast AV Gallery can help. <a href="https://westcoastavgallery.ca/contact">Contact us</a> today, tell us about your project, and we can get started.</p>
 </div>
 </div>
